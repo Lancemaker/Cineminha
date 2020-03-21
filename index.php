@@ -7,6 +7,5 @@
 </head>
 <body>
   <p>Cole grupo. Seguinte o nosso repo é esse <a href="https://github.com/Lancemaker/Cineminha">aki</a></p> 
-  <?php phpinfo() ; ?> 
 </body>
 </html>
