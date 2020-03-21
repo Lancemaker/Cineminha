@@ -1,0 +1,16 @@
+.carrossel-card-bg{
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    height: 500px;
+}    
+    
