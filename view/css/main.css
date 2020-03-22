@@ -11,6 +11,9 @@
     top: 0;
     left: 0;
     content: "";
-    height: 500px;
+    height: 700px;
 }    
-    
+.carrossel-card{
+    width:  30%;
+    margin: 0 auto;
+}
