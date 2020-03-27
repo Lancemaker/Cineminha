@@ -23,9 +23,7 @@
   include 'view/templates/main.php';
   ?>
   <!--Main content End-->
-  <?php
-  include 'view/templates/formularioCompra.php';
-  ?>
+
   <!--Footer-->
   <?php
   include 'view/templates/footer.php';
