@@ -5,8 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
+<style>
+    .lance{
+        width:40%;margin: 0 auto; border-color: red;
+        border-style: solid;
+    }
+</style>
 <body>
-<div style="width:40%;margin: 0 auto; border-color: red">
+<div class="lance">
     <form action="" name="Form1" method="POST">
     <p>nome:
     <input type="text" name="nome" size="20"/>
@@ -16,7 +23,7 @@
     </form>
 </div>
 
-<div sstyle="width:40%;margin: 0 auto; border-color: red">
+<div class="lance">
     <form action="" name="Form2" method="POST">
     <p>nome:
     <input type="text" name="user" size="20"/>
@@ -26,7 +33,7 @@
     </form>
 </div>
 
-<div style="width:40%;margin: 0 auto; border-color: red">
+<div class="lance">
     <form action="" name="Form3" method="POST">
 
     <p>Eu tenho uma bike:
@@ -43,7 +50,7 @@
     </form>
 </div>
 
-<div style="width:40%;margin: 0 auto; border-color: red">
+<div class="lance">
     <form action="" name="Form" method="POST">
     Qual é seu sexo ?
     <br>
@@ -52,7 +59,7 @@
     <input type="radio" name="sexo" value="F">Feminino
 </div>
 
-<div style="width:40%;margin: 0 auto; border-color: red">
+<div class="lance">
     <form action="" name="Form" method="POST">
     Qual é seu sexo ?
     <br>
@@ -61,13 +68,13 @@
     <input type="radio" name="sexo" value="F">Feminino
     </form>
 </div>
-<div>
+<div class="lance">
     <form action="">
     <input type="button" value="Hello world!" />
     </form>
 </div>
 
-<div>
+<div class="lance">
     <form name="input" action="form_action.asp" method="get">
     Digite seu primeiro nome:
     <input type="text" name="FirstName" value=“Antonio" size="20" />
