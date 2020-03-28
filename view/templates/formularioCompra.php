@@ -62,15 +62,6 @@
             <input type="radio" name="sexo" value="M">Masculino
             <br>
             <input type="radio" name="sexo" value="F">Feminino
-    </div>
-
-    <div class="lance">
-        <form action="" name="Form" method="POST">
-            Qual é seu sexo ?
-            <br>
-            <input type="radio" name="sexo" value="M">Masculino
-            <br>
-            <input type="radio" name="sexo" value="F">Feminino
         </form>
     </div>
     <div class="lance">

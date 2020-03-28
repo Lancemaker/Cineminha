@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="javascript:void(0)" onclick="PrintFibo()"><p>GO FIBO!</p></a>
+    <p id="fibo">1</p>
+    
+    <script>
+        var container= document.getElementById("fibo");
+        var a=0
+            var b=1
+            var temp=0;
+        function PrintFibo(){
+               temp=a+b                
+                a=b
+                b=temp
+                container.innerHTML+=" "+temp;
+
+        }
+    </script>
+</body>
+</html>
