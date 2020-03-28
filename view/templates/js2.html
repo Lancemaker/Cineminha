@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+    <p>nota 1:</p>
+    <input id="n1" type="number" name="nome" size="20" />
+    <p>nota 2:</p>
+    <input id="n2" type="number" name="nome" size="20" />
+    <p>nota 3:</p>
+    <input  id="n3" type="number" name="nome" size="20" />
+    <p>nota 4:</p>
+    <input id="n4" type="number" name="nome" size="20" />
+    </form>
+    <p id="res"></p>
+    <a href="javascript:void(0)" onclick="calculaRole()"><p>Calcula o lance todo que o professor pediu</p></a>
+    <script>
+    
+    
+    function calculaRole(){
+        var a = parseInt(document.getElementById("n1").value);
+    var b = parseInt(document.getElementById("n2").value);
+    var c = parseInt(document.getElementById("n3").value);
+    var d = parseInt(document.getElementById("n4").value);
+    var res=document.getElementById("res");
+    console.log(a,b,c,d);
+        var media = (a+b+c+d)/4;
+        var maior = Math.max(a,b,c,d);
+        var menor = Math.min(a,b,c,d);
+        var result = "";
+        if(media>=6){
+         result = "aprovado";
+            
+        }else{
+            result = "reprovado";
+        }
+        res.innerHTML="media: "+media+"\n\n"+"maior nota: "+maior+"\n\n"+"menor Nota: "+menor+"\n\n"+"aluno esta :" + result;
+    }
+
+
+    </script>
+</body>
+</html>
