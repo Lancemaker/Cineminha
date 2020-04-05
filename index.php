@@ -1,26 +1,26 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cineminha</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="view/css/main.css">
-</head>
-
-<body>
   <!--Header 
   se liga nesse site. To usando como base do layout https://vimeo.com/ondemand
   -->
   <?php
+  
+  /* 
+  Todos os links do menu sao requests de pagina que vao ser carregados no Main Content dinamicamente.
+  Assim o Header (o menu e as configuracoes do bootstrap) e o footer nao mudam.
+
+  */
+  if(isset($_GET['page']) && $_GET['page'] != '' ){ //se houver um request e este request de pagina nao for vazio   
+    $page = $_GET['page']; //set a variavel o nome do arquivo a ser servido.
+  }else{
+    $page = 'main';
+  }
+
   include 'view/templates/header.php';
   ?>
   <!--Header end-->
 
   <!--Main content-->
   <?php
-  include 'view/templates/main.php';
+  include 'view/templates/'.$page.'.php'; //aqui nos montamos o caminho do arquivo a ser servido. 
   ?>
   <!--Main content End-->
 
@@ -30,9 +30,3 @@
   ?>
   <!--Footer End-->
   
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</body>
-
-</html>
