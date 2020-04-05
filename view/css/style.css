@@ -1,0 +1,87 @@
+*{margin: 15px; padding: 0;}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+}
+
+#perfil{
+    border-radius: 100px;
+    height: 150px;
+    float:inherit;    
+}
+
+.titulo{
+    font-family: arial;
+    font-size: 20px;  
+    text-align: justify;
+}
+
+#linkedin{
+    height: 50px;
+}
+
+footer{
+    border:double;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    font-size: 20px;
+}
+
+p{
+    font-size:20px;
+    text-align: justify;
+}
+
+li{
+    font-size:20px;
+}
+#menu{
+    font-size: 15px;
+    text-align: justify;
+}
+
+#Formacao{
+    border:double;
+    border-radius: 10px;
+    background-color: lightsteelblue;
+}
+#Resumo{
+    border:double;
+    border-radius: 10px;
+}
+
+#Experiencias{
+    border:double;
+    border-radius: 10px;
+}
+
+#Conhecimentos{
+    border:double;
+    border-radius: 10px;
+    background-color: lightsteelblue;
+}
+
+ul{
+    list-style: none;
+}
+
+
+
+
+#fundo{
+    background-color: white;
+    border:double;
+    text-align: justify;
+    
+    border-radius: 10px;
+    
+}
+header{
+    border: double;
+    border-radius: 10px;
+    background-color:lightsteelblue;
+    text-align: center;
+}
