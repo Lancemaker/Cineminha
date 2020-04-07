@@ -1,14 +1,16 @@
 <div class="footer">
 
         <!-- Content -->
-        <h5>Cineminha</h5>
+        <h5 align="center" font-size:16px>Cineminha</h5>
         <p>Muito obrigado por entrar no Cineminhas</p>
-</div>
-<div class="footer">© 2020 Copyright:
+    
+    <img src="assets/thumbs/wpp.png" alt="Smiley face" height="24" width="24">
+    <img src="assets/thumbs/face.png" alt="Smiley face" height="24" width="24">
+    <br>
+    <a>© 2020 Copyright:<a>
     <a> Seiji,Rodrigo,LeoGil</a>
-  </div>
-  <img src="assets/thumbs/wpp.png" alt="Smiley face" height="42" width="42">
 
+</div>
 
 </footer>
 
