@@ -7,7 +7,7 @@
     </head>
     <header><img id="perfil" src=""/>
      <div id="apres">
-            <h4>Nome: Leomardo de Sá Santos</h4>
+            <h4>Nome: Leonardo de Sá Santos</h4>
             <h4>Email: leo-sa-santos@hotmail.com</h4>
             <h4>Telefone: (11) 98656-5876</h4></div></header>
     <body>
