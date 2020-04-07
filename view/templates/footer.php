@@ -6,7 +6,7 @@
   <img src="assets/thumbs/face.png" alt="Smiley face" height="24" width="24">
   <br>
   <p>© 2020 Copyright:<p>
-  <p> Seiji,Rodrigo,LeoGil</p>
+  <p> Seiji,Rodrigo,Leo,Gil,Makaya</p>
 </div>
   
 </footer>
