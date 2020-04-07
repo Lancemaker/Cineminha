@@ -21,7 +21,6 @@
     width:  30%;
     margin: 0 auto;
 }
-<<<<<<< HEAD
 .footer{
 background-color: #343a40; 
 color: white;
@@ -31,12 +30,14 @@ height: 70px;
 
 .footer-tabela{
  background-color: red;   
-=======
-
+}
 /*
 /*Institucional
 */
 .respiro{
     margin: 8% 5% 10% 5%;
->>>>>>> 7f1dd0609b2ec1e62c503f365b26f3cda4796d34
+}
+
+.direita{
+    margin-left: 90%;
 }
