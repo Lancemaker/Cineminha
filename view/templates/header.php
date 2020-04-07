@@ -10,26 +10,45 @@
 </head>
 
 <body>
-<header>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-xl">
-      <a class="navbar-brand" href="/index.php">Cineminha</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07XL" aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-  
-      <div class="collapse navbar-collapse" id="navbarsExample07XL">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.php?page=institucional">Institucional</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="index.php?page=CvLeo">Sobre Nós</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="index.php?page=horarios">Horários</a>
-          </li>
-          <!-- <li class="nav-item">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-xl">
+        <a class="navbar-brand" href="/index.php">Cineminha</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07XL" aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample07XL">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.php?page=institucional">Institucional</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.php?page=CvLeo">Sobre Nós</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.php?page=horarios">Horários</a>
+            </li>
+            <ul class="right-bar">
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Login/Cadastro
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Login</a>
+                  <a class="dropdown-item" href="#">Cadastro</a>
+                </div>
+              </div>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="index.php?page=FormularioCadastro">Login/Cadastro</a>
+              </li>
+              
+-->
+            </ul>
+            <div class="icon-login">
+              <img src="assets/thumbs/person.svg" height="30" width="30">
+            </div>
+            <!-- <li class="nav-item">
             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
           </li>
           <li class="nav-item dropdown">
@@ -39,10 +58,8 @@
               <a class="dropdown-item" href="#">Something else here</a>
             </div>
           </li> -->
-        </ul>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-</header>
-
-
+    </nav>
+  </header>

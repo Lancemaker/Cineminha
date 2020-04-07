@@ -1,21 +1,3 @@
-<!DOCTYPE html>
-<h1>Aulinha coronistica! forms + js!</h1>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<style>
-    .lance {
-        width: 40%;
-        margin: 0 auto;
-        border-color: red;
-        border-style: solid;
-    }
-</style>
 
 <body>
     <div class="lance">
