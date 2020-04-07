@@ -1,3 +1,7 @@
+
+/*
+/*Main
+*/
 .carrossel-card-bg{
     filter: blur(8px);
     -webkit-filter: blur(8px);
@@ -16,4 +20,11 @@
 .carrossel-card{
     width:  30%;
     margin: 0 auto;
+}
+
+/*
+/*Institucional
+*/
+.respiro{
+    margin: 5% 10% 0 10%;
 }
