@@ -40,4 +40,29 @@ height: 70px;
 .respiro{
     margin: 8% 5% 10% 5%;
 height: 30%;   
+height: 70px;   
+}
+
+.footer-tabela{
+ background-color: red;   
+}
+
+/*
+/*Institucional
+*/
+.respiro{
+    margin: 8% 5% 10% 5%;
+}
+
+/*
+Menu Login/Cadastro
+*/
+.right-bar{
+    color: white;
+    padding-left: 140%;
+    list-style: none;
+}
+.icon-login{
+    padding-left: 145%;
+    padding-top: 1%;
 }
