@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 /*
 /*Main
 */
@@ -56,4 +56,276 @@ Menu Login/Cadastro
 .icon-login{
     padding-left: 145%;
     padding-top: 1%;
+}
+/*
+ Tela login
+*/
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ecf0f1;
+}
+.content{
+    background-color: white;
+    border-radius: 15px;
+    width: 960px;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.content::before{
+    content: "";
+    position: absolute;
+    background-color: #343a40;
+    width: 40%;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+
+
+
+    left: 0%;
+}
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.title-primary{
+    color: #fff;
+}
+.title-second{
+    color: #343a40;
+}
+.descricao{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+}
+.descricao-primary{
+    color: white;
+}
+.descricao-second{
+    color: #7f8c8d;
+}
+.btn-login{
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 10px;
+    padding: 10px 50px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 150px;
+    align-self: center;
+    border: none;
+
+}
+.btn-primary{
+    background-color: transparent;
+    border: 1px solid white;
+    transition: background-color 1s;
+}
+.btn-primary:hover{
+    background-color: white;
+    color: #343a40;
+}
+.btn-second{
+    background-color: #343a40;
+    border: 1px  solid #343a40;
+    transition: background-color 1s;
+}
+.btn-second:hover{
+    background-color: transparent;
+    color: #343a40;
+}
+.primeiro-conteudo{
+    display: flex;
+}
+.primeiro-conteudo .segunda-coluna{
+    z-index: 12;
+}
+.primeira-coluna{
+    text-align: center;
+    width: 40%;
+    z-index: 10;
+}
+.segunda-coluna{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.midia-social{
+    margin: 1rem 0;
+    padding-right: 45px;
+}
+.link-midia-social:not(:first-child){
+    margin-left: 10px;
+}
+.link-midia-social .iten-midia-social{
+    transition: background-color 1s;
+}
+.list-social-media{
+    display: flex;
+    list-style-type: none;
+}
+
+.iten-midia-social{
+    border: 1px solid #bdc3c7;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #95a5a6;
+}
+.link-midia-social:hover .iten-midia-social{
+    background-color: #343a40;
+    color: white;
+    border-color: #343a40;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+.form input{
+    height: 45px;
+    width: 100%;
+    border: none;
+    background-color: #ecf0f1;
+}
+.label-input{
+    background-color: #ecf0f1;
+    display: flex;
+    align-items: center;
+    margin: 8px;
+}
+.icon-modify::before{
+    color: #7f8c8d;
+    padding: 0 5x;
+}
+/*
+    Segundo Conteudo
+*/
+.segundo-conteudo{
+    position: absolute;
+}
+.segundo-conteudo .primeira-coluna{
+    order: 2;
+    z-index: -1;
+}
+.segundo-conteudo .segunda-coluna{
+    order: 1;
+    z-index: -1;
+}
+.password{
+    color: #343a40;
+    font-size: 14px;
+    margin: 15px 0;
+    text-align: center;
+}
+.sign-in-js .primeiro-conteudo .primeira-coluna,
+.sign-in-js .primeiro-conteudo .segunda-coluna{
+    z-index: -1;
+}
+
+.sign-in-js .segundo-conteudo .segunda-coluna{
+    z-index: 11;
+}
+.sign-in-js .segundo-conteudo .primeira-coluna{
+    z-index: 13;
+}
+.sign-in-js .content::before{
+    content: "";
+    position: absolute;
+    background-color: #343a40;
+    top: 0;
+    width: 39.5%;
+    height: 100%;
+    left: 60.5%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    animation: slidein 1.3s ease-out;
+    z-index: 12;
+}
+.sign-up-js .content::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #343a40;
+    width: 39.5%;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    animation: slideout 1.3s ease-out;
+    z-index: 12;
+}
+
+.sign-up-js .segundo-conteudo .primeira-coluna,
+.sign-up-js .segundo-conteudo .segunda-coluna{
+    z-index: -1;
+}
+.sign-up-js .primeiro-conteudo .segunda-coluna{
+    z-index: 11;
+}
+.sign-up-js .primeiro-conteudo .primeira-coluna{
+    z-index: 13;
+}
+
+/*
+Animação css
+*/
+@keyframes slidein{
+    from{
+        left: 0;
+        width: 40%;
+    }
+    25%{
+        left: 5%;
+        width: 50%
+    }
+    50%{
+        left: 25%;
+        width: 60%;
+    }
+    75%{
+        left: 45%;
+        width: 50%;
+    }
+    to{
+        left: 60%;
+        width: 40%;
+    }
+}
+@keyframes slideout{
+    from{
+        left: 60%;
+        width: 40%;
+    }
+    25%{
+        left: 45%;
+        width: 50%
+    }
+    50%{
+        left: 25%;
+        width: 60%;
+    }
+    75%{
+        left: 5%;
+        width: 50%;
+    }
+    to{
+        left: 0;
+        width: 40%;
+    }
 }
