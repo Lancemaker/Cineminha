@@ -24,7 +24,7 @@
               <a class="nav-link" href="index.php?page=institucional">Institucional</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.php?page=CvLeo">Sobre Nós</a>
+              <a class="nav-link" href="index.php?page=sobrenos">Sobre Nós</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="index.php?page=horarios">Horários</a>

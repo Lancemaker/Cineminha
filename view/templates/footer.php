@@ -1,20 +1,14 @@
-<div class="footer">
-
-  <!-- Content -->
-  <h5 align="center" font-size:16px>Cineminha</h5>
-  <p>Muito obrigado por entrar no Cineminhas</p>
-</div>
-<div class="footer">© 2020 Copyright:
-  <a> Seiji,Rodrigo,LeoGil</a>
-</div>
-<div>
+<footer class="footer">
+<div class="respiro">
+<h5 align="center" font-size:16px>Cineminha</h5>
+  <p>Muito obrigado por entrar no Cineminha</p>
   <img src="assets/thumbs/wpp.png" alt="Smiley face" height="24" width="24">
   <img src="assets/thumbs/face.png" alt="Smiley face" height="24" width="24">
   <br>
-  <a>© 2020 Copyright:<a>
-      <a> Seiji,Rodrigo,LeoGil</a>
+  <p>© 2020 Copyright:<p>
+  <p> Seiji,Rodrigo,LeoGil</p>
 </div>
-
+  
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

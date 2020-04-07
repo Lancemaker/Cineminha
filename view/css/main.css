@@ -28,6 +28,7 @@
 background-color: #343a40; 
 color: white;
 width:  100%;
+min-height: 16rem;
 }
 
 .footer-tabela{
@@ -37,20 +38,11 @@ width:  100%;
 /*Institucional
 */
 .respiro{
-    margin: 8% 5% 10% 5%;
-height: 30%;   
-height: 70px;   
+    margin: 8% 5% 0 5%;
 }
 
 .footer-tabela{
  background-color: red;   
-}
-
-/*
-/*Institucional
-*/
-.respiro{
-    margin: 8% 5% 10% 5%;
 }
 
 /*
