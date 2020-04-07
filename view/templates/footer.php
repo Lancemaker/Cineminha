@@ -1,20 +1,16 @@
-<<<<<<< HEAD
 <div class="footer">
 
         <!-- Content -->
-        <h5>Cineminha</h5>
+        <h5 align="center" font-size:16px>Cineminha</h5>
         <p>Muito obrigado por entrar no Cineminhas</p>
-</div>
-<div class="footer">© 2020 Copyright:
+    
+    <img src="assets/thumbs/wpp.png" alt="Smiley face" height="24" width="24">
+    <img src="assets/thumbs/face.png" alt="Smiley face" height="24" width="24">
+    <br>
+    <a>© 2020 Copyright:<a>
     <a> Seiji,Rodrigo,LeoGil</a>
-  </div>
-  <img src="assets/thumbs/wpp.png" alt="Smiley face" height="42" width="42">
 
-
-</footer>
-=======
-<h1>footer</h1>
->>>>>>> 7f1dd0609b2ec1e62c503f365b26f3cda4796d34
+</div>
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
