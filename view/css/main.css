@@ -106,6 +106,16 @@ Menu Login/Cadastro
 .title-second{
     color: #343a40;
 }
+.exit{
+    width: 89%;
+    height: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.exit a{
+    color: #343a40;
+}
 .descricao{
     font-size: 14px;
     font-weight: 300;
@@ -164,6 +174,16 @@ Menu Login/Cadastro
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.exit-left{
+    width: 89%;
+    height: 4px;
+    display: flex;
+    flex-direction: column;
+
+}
+.exit-left a{
+    color: #343a40;
 }
 .midia-social{
     margin: 1rem 0;

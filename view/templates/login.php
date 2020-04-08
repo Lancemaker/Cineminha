@@ -10,6 +10,11 @@
         </div>
         <!-- Segunda Coluna-->
         <div class="segunda-coluna">
+            <div class="exit">
+                <a href="index.php?page=main">
+                    <i class="fas fa-times"></i>
+                </a>
+            </div>
             <h2 class="title title-second">Criar Conta</h2>
             <div class="midia-social">
                 <ul class="list-social-media">
@@ -59,6 +64,11 @@
         </div>
         <!-- Segunda Coluna-->
         <div class="segunda-coluna">
+            <div class="exit-left">
+                <a href="index.php?page=main">
+                    <i class="fas fa-times"></i>
+                </a>
+            </div>
             <h2 class="title title-second">Sign in to Developer</h2>
             <div class="midia-social">
                 <ul class="list-social-media">
