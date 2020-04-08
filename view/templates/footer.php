@@ -4,8 +4,9 @@
         <h5 align="center" >Cineminha</h5>
         <p>Muito obrigado por entrar no Cineminhas</p>
       
-    <img src="assets/thumbs/wpp.png" alt="Smiley face" height="24" width="24">
-    <img src="assets/thumbs/face.png" alt="Smiley face" height="24" width="24">
+    <ion-icon name="logo-whatsapp"></ion-icon>
+    <ion-icon name="logo-facebook"></ion-icon>
+    <ion-icon name="logo-instagram"></ion-icon>
     <br>
     <a>© 2020 Copyright:<a>
     <a> Seiji,Rodrigo,LeoGil</a>
