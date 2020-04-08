@@ -353,3 +353,30 @@ Animação css
         width: 40%;
     }
 }
+/*
+* Tela de Cadastro
+*/
+.container-cadastro{
+    height: 100vh;
+    background-color: #ecf0f1;
+}
+.label-cadastro{
+    width: 100%;
+    color: #343a40;
+    margin-bottom: 15px;
+}
+.title-cadastro{
+    color:#343a40;
+    margin-top: 8px;
+    margin-bottom: 19px;
+}
+.input-text{
+    width: 80%;
+}
+.cadastrar{
+    width: 25%;
+    margin: 0px 169px;
+}
+.cadastro{
+    font-size: 9px;
+}
