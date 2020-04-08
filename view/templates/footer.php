@@ -1,12 +1,12 @@
 <footer class="footer">
-<div class="respiro">
+<div class="respiro" style="padding-top:3rem">
 <h5 align="center" font-size:16px>Cineminha</h5>
   <p>Muito obrigado por entrar no Cineminha</p>
   <img src="assets/thumbs/wpp.png" alt="Smiley face" height="24" width="24">
   <img src="assets/thumbs/face.png" alt="Smiley face" height="24" width="24">
   <br>
   <p>© 2020 Copyright:<p>
-  <p> Seiji,Rodrigo,LeoGil</p>
+  <p> Seiji,Rodrigo,Leo,Gil</p>
 </div>
   
 </footer>
