@@ -4,10 +4,12 @@
         <h5 align="center" >Cineminha</h5>
         <p>Muito obrigado por entrar no Cineminhas</p>
       
-    <ion-icon name="logo-whatsapp"></ion-icon>
-    <ion-icon name="logo-facebook"></ion-icon>
-    <ion-icon name="logo-instagram"></ion-icon>
+        <img src="https://img.icons8.com/windows/64/000000/whatsapp.png"/><a>Whatsapp</a>
+        <img src="https://img.icons8.com/windows/64/000000/facebook.png"/><a>Facebook</a>
+        <img src="https://img.icons8.com/windows/64/000000/instagram-new.png"/>
+<a>Instagram</a>    
     <br>
+    <img src="https://img.icons8.com/windows/32/000000/movie-projector.png"/>
     <a>© 2020 Copyright:<a>
     <a> Seiji,Rodrigo,LeoGil</a>
 
