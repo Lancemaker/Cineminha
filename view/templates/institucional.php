@@ -33,15 +33,15 @@
       <div>
         <h1 class="display-4 font-italic" style="border:0; text-align: center;">Como Chegar</h1>
 
-        <div style="width: 55%; display:block; margin-left: auto; margin-right: auto;">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1091.1902466511228!2d77.6289967050066!3d12.93598254914279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1467f8d9db05%3A0xa81aec3787db5e92!2sThe%20Hacker%20Street!5e0!3m2!1sen!2sbr!4v1586221649576!5m2!1sen!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <div style="text-align: center">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2631.3293803363863!2d-71.81706890146025!3d42.2450540631845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e4042ee863cf4b%3A0x1709d61fefa9ce8d!2sHacker%20St%2C%20Worcester%2C%20MA%2001603%2C%20USA!5e0!3m2!1sen!2sbr!4v1586308102273!5m2!1sen!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
         </div>
       </div>
     </div>
   </div>
-</div>
+  
 
-<div>
   <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
 
     <h1 class="display-4 font-italic" style="border:0; text-align: center;">Alguns dos Nossos Produtos</h1>

@@ -7,8 +7,7 @@
   <title>Cineminha</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="view/css/main.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
 
 <body>
@@ -31,11 +30,9 @@
             <li class="nav-item">
               <a class="nav-link" href="index.php?page=horarios">Horários</a>
             </li>
-            <ul class="right-bar">
-              <li class="nav-item">
-                <a class="nav-link" href="index.php?page=login">Login/Cadastro</a>
-              </li>
-            </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="index.php?page=login">Login/Cadastro</a>
+            </li>
             <div class="icon-login">
               <img src="assets/thumbs/person.svg" height="30" width="30">
             </div>
