@@ -48,13 +48,8 @@ min-height: 16rem;
 /*
 Menu Login/Cadastro
 */
-.right-bar{
-    color: white;
-    padding-left: 140%;
-    list-style: none;
-}
 .icon-login{
-    padding-left: 145%;
+    padding-left: 3%;
     padding-top: 1%;
 }
 /*
