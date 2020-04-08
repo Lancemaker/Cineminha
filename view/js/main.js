@@ -1,3 +1,6 @@
+/**
+ * transição da tela de login
+ */
 var btnSignin = document.querySelector("#signin");
 var btnSignup = document.querySelector("#signup");
 
@@ -28,7 +31,7 @@ function mascara(i,t){
        i.setAttribute("maxlength", "10");
        if (v.length == 2 || v.length == 5) i.value += "/";
     }
-    
+
     if(t == "tel"){
        if(v[0] == 9){
           i.setAttribute("maxlength", "10");
