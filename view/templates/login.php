@@ -51,7 +51,7 @@
                 </label>
                 <!--<button class="btn-login btn-second">sign up</button>-->
             </form>
-            <input type="button"class="btn-login btn-second" onclick="location.href='http://localhost/index.php?page=cadastro';" value="sign up"/>
+            <input type="button"class="btn-login btn-second" onclick="location.href=href='index.php?page=cadastro';" value="sign up"/>
         </div>
     </div>
     <!-- Segundo Conteudo-->
