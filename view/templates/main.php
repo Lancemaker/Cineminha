@@ -13,6 +13,18 @@
       <div class="carrossel-card-bg" style="background-image: url('assets/thumbs/Parasite.jpg');"></div>
       <img src="assets/thumbs/Parasite.jpg" class="carrossel-card d-block" alt="...">
     </div>
+    <div class="carousel-item">
+      <div class="carrossel-card-bg" style="background-image: url('assets/thumbs/Joker.jpg');"></div>
+      <img src="assets/thumbs/Joker.jpg" class="carrossel-card d-block" alt="...">
+    </div>
+    <div class="carousel-item">
+      <div class="carrossel-card-bg" style="background-image: url('assets/thumbs/KnivesOut.jpg');"></div>
+      <img src="assets/thumbs/KnivesOut.jpg" class="carrossel-card d-block" alt="...">
+    </div>
+    <div class="carousel-item">
+      <div class="carrossel-card-bg" style="background-image: url('assets/thumbs/JojoRabbit.jpg');"></div>
+      <img src="assets/thumbs/JojoRabbit.jpg" class="carrossel-card d-block" alt="...">
+    </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
