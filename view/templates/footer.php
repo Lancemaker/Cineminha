@@ -1,6 +1,7 @@
 <div class="footer">
 
         <!-- Content -->
+        <br>
         <h5 align="center" >Cineminha</h5>
         <p>Muito obrigado por entrar no Cineminhas</p>
       <div class="redes-sociais">
