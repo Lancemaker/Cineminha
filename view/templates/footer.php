@@ -3,11 +3,11 @@
         <!-- Content -->
         <h5 align="center" >Cineminha</h5>
         <p>Muito obrigado por entrar no Cineminhas</p>
-      
+      <div class="redes-sociais">
         <img src="https://img.icons8.com/windows/64/000000/whatsapp.png"/><a>Whatsapp</a>
         <img src="https://img.icons8.com/windows/64/000000/facebook.png"/><a>Facebook</a>
-        <img src="https://img.icons8.com/windows/64/000000/instagram-new.png"/>
-<a>Instagram</a>    
+        <img src="https://img.icons8.com/windows/64/000000/instagram-new.png"/><a>Instagram</a>
+      </div> 
     <br>
     <img src="https://img.icons8.com/windows/32/000000/movie-projector.png"/>
     <a>© 2020 Copyright:<a>
