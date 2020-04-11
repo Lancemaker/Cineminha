@@ -3,16 +3,33 @@
         <!-- Content -->
         <br>
         <h5 align="center" >Cineminha</h5>
-        <p>Muito obrigado por entrar no Cineminhas</p>
+        <p>Muito obrigado por entrar no Cineminha</p>
       <div class="redes-sociais">
-        <img src="https://img.icons8.com/windows/64/000000/whatsapp.png"/><a>Whatsapp</a>
-        <img src="https://img.icons8.com/windows/64/000000/facebook.png"/><a>Facebook</a>
-        <img src="https://img.icons8.com/windows/64/000000/instagram-new.png"/><a>Instagram</a>
+        <img src="https://img.icons8.com/windows/32/000000/whatsapp.png"/><a>Whatsapp</a>
+        <img src="https://img.icons8.com/windows/32/000000/facebook.png"/><a>Facebook</a>
+        <img src="https://img.icons8.com/windows/32/000000/instagram-new.png"/><a>Instagram</a>
       </div> 
     <br>
+
+    <ul class="nav justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link active" href="index.php?page=institucional">Institucional</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="index.php?page=sobrenos">Sobre nós</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="index.php?page=horarios">Horários</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="index.php?page=login">Login Cadastro</a>
+  </li>
+</ul>
+
+
     <img src="https://img.icons8.com/windows/32/000000/movie-projector.png"/>
     <a>© 2020 Copyright:<a>
-    <a> Seiji,Rodrigo,LeoGil</a>
+    <a> Seiji,Rodrigo,Leo,Gil</a>
 
 </div>
 </footer>
