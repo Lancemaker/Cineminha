@@ -13,7 +13,7 @@
 
     <ul class="nav justify-content-center">
   <li class="nav-item">
-    <a class="nav-link active" href="index.php?page=institucional">Institucional</a>
+    <a class="nav-link active" color="white" href="index.php?page=institucional">Institucional</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="index.php?page=sobrenos">Sobre nós</a>
@@ -22,7 +22,7 @@
     <a class="nav-link" href="index.php?page=horarios">Horários</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link disabled" href="index.php?page=login">Login Cadastro</a>
+    <a class="nav-link" href="index.php?page=login">Login Cadastro</a>
   </li>
 </ul>
 
