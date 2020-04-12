@@ -12,14 +12,14 @@
     <br>
 
     <ul class="nav justify-content-center">
+ <li class="nav-item">
+    <a class="nav-link" href="index.php?page=horarios">Horários</a>
+  </li>
   <li class="nav-item">
     <a class="nav-link active" color="white" href="index.php?page=institucional">Institucional</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="index.php?page=sobrenos">Sobre nós</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="index.php?page=horarios">Horários</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="index.php?page=login">Login Cadastro</a>
