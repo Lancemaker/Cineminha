@@ -2,10 +2,10 @@
   <header>
     <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
       <div class="">
-        <h1 class="display-4 font-italic" style="text-align: center;">Institucional Cineminha</h1>
-        <p class="lead my-3">O Cineminha é uma empresa que respira cinema e tem por objetivo gerar a melhor experiência cinematográfica possivel para todos os cinéfilos.
-          <br>
-          Fundado nos meados de 2020 em plena uma pandemia, onde nosso público alvo foi todo afetado o Cineminha vem com uma visão futurística sobre cinema.
+        <h1 class="display-4 font-italic" style="text-align: center;"> <b> Institucional Cineminha</b></h1>
+        <p class="lead my-3">O Cineminha é uma empresa que respira cinema e tem por objetivo gerar a melhor experiência cinematográfica possivel para todos os cinéfilos.</p>
+          <hr>
+          <p class="lead my-3"> Fundado nos meados de 2020 em plena uma pandemia, onde nosso público alvo foi todo afetado o Cineminha vem com uma visão futurística sobre cinema.
           Nós queremos que o Cinema não seja somente um lugar, queremos que seja mais que isso, queremos que ele seja diversão,
           lembrança de bons momentos, de amigos e de bons filmes!
         </p>
