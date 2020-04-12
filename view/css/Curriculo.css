@@ -1,0 +1,51 @@
+.imagem-curriculo{
+    position: relative;
+    z-index: 5;
+    top: 0px;
+    right: 0px;
+    height: 300px;
+    float: right;
+    box-sizing: border-box;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+    
+    
+}
+.cabecalho{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 100px;
+    width: 100%;
+    font-size: 100%;
+    text-align: center;
+	background-color: #851944;
+	color: #FFF;
+    padding: 1.25rem;
+	border-bottom: .5rem solid black;
+    text-transform: uppercase;
+}
+.texto{
+    text-align: justify;
+    width: 50%;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+.redes-sociais-curriculo{
+    float:right;
+    position: relative;
+    text-align: center;
+    background-color: #851944;
+    color: #f2fffc;
+    height: 200px;
+    width: 218.5px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+}
+a{
+
+    color: white;
+}

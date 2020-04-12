@@ -19,8 +19,11 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarsExample07XL">
+        <div class="collapse navbar-collapse" id="navbarsExample07XL" style="margin-left: 21%;">
           <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.php?page=horarios">Horários</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="index.php?page=institucional">Institucional</a>
             </li>
@@ -28,10 +31,7 @@
               <a class="nav-link" href="index.php?page=sobrenos">Sobre Nós</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.php?page=horarios">Horários</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index.php?page=login">Login/Cadastro</a>
+              <a class="nav-link" href="index.php?page=login"><u> Login/Cadastro</u></a>
             </li>
             <div class="icon-login">
               <img src="assets/thumbs/person.svg" height="30" width="30">
