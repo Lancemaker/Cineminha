@@ -19,20 +19,19 @@
         </aside>
         <div class="texto">
             <h2>Sobre mim</h2>
-            <p>Tenho 24 anos, sou estudante de Ciências da Computação pela Universidade Anhembi Morumbi<br>
-                estou trabalhando na área a 1 ano e meio, como desenvoledor backend. Comecei como estágiario e agora<br>
-                e agora estou com desenvolvedor junior.</p>
+            <p>Tenho 37 anos, formado em Psicologia pela Universidade Estácio de Sá, estudante de Ciências da Computação<br>
+                na Universidade Anhembi Morumbi.Tenho 2 anos trabalhando como front-end e previamente 3 anos de expenriência<br>
+            em desenvolvimento de jogos.</p>
 
-
-            <h2>Já trabalhei com</h2>
+            <h2>Já trabalhei com as seguintes Linguagens:</h2>
             <ul>
-                <li>Java</li>
-                <li>Microsoft SQL Server</li>
-                <li>JSP</li>
-                <li>Swagger</li>
+                <li>C# (Unity)</li>
+                <li>html,css,Javascript</li>
+                <li>Python</li>
+                <li>PHP</li>
+                <li>Angular</li>
             </ul>
-        </div>
-        
+        </div>        
     </main>
 
 

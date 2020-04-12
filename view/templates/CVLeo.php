@@ -3,7 +3,7 @@
 <head>
     <link rel="stylesheet" type="text/css" href='view/css/style.css'/>
     <meta charset ="utf-8"/>
-    <title>Fernando Loi</title>
+    <title>Leonardo de Sá Santos</title>
     </head>
     <header><img id="perfil" src=""/>
      <div id="apres">
