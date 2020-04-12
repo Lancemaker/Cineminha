@@ -31,7 +31,7 @@
               <a class="nav-link" href="index.php?page=sobrenos">Sobre Nós</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.php?page=login">Login/Cadastro</a>
+              <a class="nav-link" href="index.php?page=login"><u> Login/Cadastro</u></a>
             </li>
             <div class="icon-login">
               <img src="assets/thumbs/person.svg" height="30" width="30">
