@@ -19,16 +19,16 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarsExample07XL">
+        <div class="collapse navbar-collapse" id="navbarsExample07XL" style="margin-left: 21%;">
           <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.php?page=horarios">Horários</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="index.php?page=institucional">Institucional</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="index.php?page=sobrenos">Sobre Nós</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index.php?page=horarios">Horários</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="index.php?page=login">Login/Cadastro</a>
