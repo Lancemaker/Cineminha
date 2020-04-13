@@ -48,7 +48,7 @@
                 <h4 class="mb-0">Felipe Seiji</h4>
                 <strong class="d-inline-block mb-2 text-primary">Analista Júnior @ Infinity</strong>
                 <p class="card-text mb-auto">sabe dar print screen com o mouse</p>
-                <a href="index.php?page=CVRodrigo" class="stretched-link">Seguir para currículo</a>
+                <a href="index.php?page=CVSeiji" class="stretched-link">Seguir para currículo</a>
             </div>
             <div class="col-auto d-none d-lg-block">
                 <img src="../assets/thumbs/Seiji.jpg" alt="Seiji">
