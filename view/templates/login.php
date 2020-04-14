@@ -16,42 +16,49 @@
                 </a>
             </div>
             <h2 class="title title-second">Criar Conta</h2>
-            <div class="midia-social">
-                <ul class="list-social-media">
-                    <a class="link-midia-social" href="#">
-                        <li class="iten-midia-social">
-                            <i class="fab fa-facebook-f"></i>
-                        </li>
-                    </a>
-                    <a class="link-midia-social" href="#">
-                        <li class="iten-midia-social">
-                            <i class="fab fa-google-plus-g"></i>
-                        </li>
-                    </a>
-                    <a class="link-midia-social" href="#">
-                        <li class="iten-midia-social">
-                            <i class="fab fa-linkedin-in"></i>
-                        </li>
-                    </a>
-                </ul>
-            </div>
-            <p class="descricao descricao-second">Ou use seu email para registro</p>
             <form action="" class="form">
                 <label class="label-input " for="">
                     <i class="far fa-user icon-modify" style="padding: 5px"></i>
                     <input type="text" placeholder="Nome">
                 </label>
+
                 <label class="label-input" for="">
                     <i class="far fa-envelope icon-modify" style="padding: 5px"></i>
                     <input type="email" placeholder="Email">
                 </label>
+
                 <label class="label-input" for="">
                     <i class="fas fa-lock icon-modify" style="padding: 5px"></i>
                     <input type="password" placeholder="Senha">
                 </label>
-                <!--<button class="btn-login btn-second">sign up</button>-->
+
+                <label class="label-input" for="">
+                    <i class="fas fa-lock icon-modify" style="padding: 5px"></i>
+                    <input type="password" placeholder="Data de Nascimento">
+                </label>
+
+                <label class="label-input-radio">
+                    <p>Qual o seu sexo?</p>
+                    <input type="radio" name="sexo" value="M">
+                    <p style="text-align: center">Masculino</p>
+                    <input type="radio" name="sexo" value="F">
+                    <p style="text-align: center">Feminino</p>
+                </label>
+
+                <label class="label-input" for="">
+                    <i class="fas fa-lock icon-modify" style="padding: 5px"></i>
+                    <input type="password" placeholder="Telefone Residencial">
+                </label>
+                <label class="label-input" for="">
+                    <i class="fas fa-lock icon-modify" style="padding: 5px"></i>
+                    <input type="password" placeholder="Telefone Celular">
+                </label>
+                <label class="label-input" for="">
+                    <i class="fas icon-modify" style="padding: 5px"></i>
+                    <textarea id="w3mission" rows="4" cols="50"></textarea>
+                </label>
             </form>
-            <input type="button"class="btn-login btn-second" onclick="location.href=href='index.php?page=cadastro';" value="sign up"/>
+            <input type="button" class="btn-login btn-second" onclick="location.href=href='index.php?page=cadastro';" value="sign up" />
         </div>
     </div>
     <!-- Segundo Conteudo-->

@@ -76,7 +76,7 @@ Menu Login/Cadastro
     background-color: white;
     border-radius: 15px;
     width: 960px;
-    height: 50%;
+    height: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -226,6 +226,22 @@ Menu Login/Cadastro
     border: none;
     background-color: #ecf0f1;
 }
+.form input[type=checkbox], input[type=radio] {
+    height: 18px;
+    border: none;
+    background-color: #ecf0f1;
+}
+.label-input-radio{
+    background-color: #ecf0f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8px;
+}
+.label-input-radio p{
+    color: #787878;
+}
+
 .label-input{
     background-color: #ecf0f1;
     display: flex;
