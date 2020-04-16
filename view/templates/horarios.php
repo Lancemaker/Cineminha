@@ -1,4 +1,14 @@
+<head>
+<style type="text/css">
+  dt {color:#343a40; font-size: 30px;}
+  dd {font-style: normal; font-family: Arial, Helvetica, sans-serif;}
+</style>
+</head>
 <div class="respiro">
+<dl>
+  <dt>Em Cartaz</dt>
+  <dd>Fique por dentro de todos os filmes que vão agitar o cinema esse ano.</dd>
+</dl>
 <table class="table">
   <thead class="thead-dark">
     <tr>

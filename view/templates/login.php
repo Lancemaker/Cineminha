@@ -62,7 +62,7 @@
                     <textarea id="w3mission" rows="4" cols="50"></textarea>
                 </label>
             </form>
-            <input type="button" class="btn-login btn-second" onclick="location.href=href='index.php?page=cadastro';" value="sign up" />
+            <input type="button" class="btn-login btn-second" onclick="location.href=href='index.php?page=main';" value="sign up" />
         </div>
     </div>
     <!-- Segundo Conteudo-->
