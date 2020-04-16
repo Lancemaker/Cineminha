@@ -50,7 +50,7 @@
                     <input oninput="mascara(this, 'tel')" class="input-text" type="text" placeholder="XXXX-XXXX" />
                 </label>
                 <label class="label-input" for="">
-                    <i class="fas fa-phone icon-modify" style="padding: 5px"></i>
+                    <i class="fas fa-mobile-alt icon-modify" style="padding: 5px"></i>
                     <input oninput="mascara(this, 'tel')" class="input-text" type="text" name="telefone celular" placeholder="XXXXX-XXXX" maxlength="9" />
                 </label>
                 <label class="label-input" for=""><br>
