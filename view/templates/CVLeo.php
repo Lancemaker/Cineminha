@@ -1,61 +1,39 @@
-<!DOCTYPE html>
-<html lang = "pt-br">
-<head>
-    <link rel="stylesheet" type="text/css" href='view/css/style.css'/>
-    <meta charset ="utf-8"/>
-    <title>Leonardo de Sá Santos</title>
-    </head>
-    <header><img id="perfil" src=""/>
-     <div id="apres">
-            <h4>Nome: Leonardo de Sá Santos</h4>
-            <h4>Email: leo-sa-santos@hotmail.com</h4>
-            <h4>Telefone: (11) 98656-5876</h4></div></header>
-    <body>
-       
-       <div id="fundo" >
-           <div id="Resumo">
-        <div class="titulo">
-            <h2>Resumo:</h2></div>
-           <p>2 anos de experiência com desenvolvimento de software usando Java.</p>
-            
-       </div>
-           
-           <div id="Formacao">
-        <div class="titulo">
-            <h2>Formação:</h2></div>
-            <p>Cursando ensino superior em Ciência da Computação na Universidade Anhembi Morumbi - Agosto/2017 - Julho/2021 </p>
-            </div>
-           
-        <div id="Experiencias">   
-        <div class="titulo">
-           <h2>Experiências Profissionais:</h2>	
-	   <br>
-           <h3>7COMm</h3>
-           <h3>Função: Estagiário em Desenvolvimento</h3>
-           <h4>Agosto/2018 - Agosto/2019</h4>
-            <br>
-            <h3>7COMm </h3>
-            <h3>Função: Desenvolvedor Java</h3> 
-            <h4> Agosto/2018 - Atualmente</h4>
-            <br>
-           </div>
-        </div>
-           
-        <div id="Conhecimentos">   
-        <div class="titulo">
-            <h2>Informática:</h2></div>
-        <ul id="menu">
-            <li>- Java</li>
-            <li>- SQL</li>
-            <li>- HTML5</li>
-            <li>- CSS</li>
-            <li>- JavaScript</li>
+<header>
+    <img class="imagem-curriculo" src="../assets/thumbs/Leo.jpg">
+</header>
+
+<main>
+    <div class="cabecalho">
+        <h2>Leonardo de Sá Santos</h2>
+        <h5>Desenvolvedor Trainee</h5>
+    </div>
+    <aside class="redes-sociais-curriculo">
+        <h4>Redes Sociais</h4>
+        <nav>
+            <ul style="list-style: none;">
+                <li><a href="https://www.facebook.com/leonardo.desasantos">Facebook</a></li>
+                <li><a href="https://www.instagram.com/leoonardos/?hl=pt-br">Instagram</a></li>
+                <li><a href="https://www.linkedin.com/in/leonardo-de-s%C3%A1-santos-0406b6164/">LinkedIn</a></li>
+                <li><a href="https://github.com/LeoonardoSa">GitHub</a></li>
             </ul>
-       
-        </div>
-        </div>
-    </body>
-    <footer>
-        <a href="https://www.linkedin.com/in/leonardo-de-s%C3%A1-santos-0406b6164/"><img id="linkedin" src="linkedin.png"/></a>
-    </footer>
-</html>
+        </nav>
+    </aside>
+    <div class="texto">
+        <h2>Sobre mim</h2>
+        <p>Meu nome é Leonardo, eu tenho 20 anos, estudo Ciência da computação
+            na universidade Anhembi Morumbi trabalho na 7COMm, adoro
+            trabalhar em grupo e sempre bem focado nos projetos em que estou direcionado e sempre
+            com um bom humor e boa comuicação.</p>
+
+
+        <h2>Já trabalhei com</h2>
+        <ol>
+            <li>Java</li>
+            <li>Microsoft SQL Server</li>
+            <li>JSP</li>
+            <li>HTML5</li>
+            <li>Struts</li>
+        </ol>
+    </div>
+
+</main>
