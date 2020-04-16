@@ -26,14 +26,12 @@
 
 
             <h2>Já trabalhei com</h2>
-            <ul>
-                <li>Java</li>
-                <li>Microsoft SQL Server</li>
-                <li>JSP</li>
-                <li>Swagger</li>
-            </ul>
+            <dl>
+                <dt>Java</dt>
+                <dt>Microsoft SQL Server</dt>
+                <dt>JSP</dt>
+                <dt>Swagger</dt>
+            </dl>
         </div>
-        
+
     </main>
-
-

@@ -5,9 +5,9 @@
   <h5 align="center">Cineminha</h5>
   <p>Muito obrigado por entrar no Cineminha</p>
   <div class="redes-sociais">
-    <img src="https://img.icons8.com/windows/32/000000/whatsapp.png" /><a>Whatsapp</a>
-    <img src="https://img.icons8.com/windows/32/000000/facebook.png" /><a>Facebook</a>
-    <img src="https://img.icons8.com/windows/32/000000/instagram-new.png" /><a>Instagram</a>
+    <img src="https://img.icons8.com/windows/32/000000/whatsapp.png" /><a href="https://api.whatsapp.com/send?phone=5511986565876">Whatsapp</a>
+    <img src="https://img.icons8.com/windows/32/000000/facebook.png" /><a href="https://www.facebook.com/leonardo.desasantos?ref=bookmarks">Facebook</a>
+    <img src="https://img.icons8.com/windows/32/000000/instagram-new.png" /><a href="https://www.instagram.com/leoonardos/?hl=pt-br">Instagram</a>
   </div>
   <br>
 
@@ -22,7 +22,7 @@
       <a class="nav-link" href="index.php?page=sobrenos">Sobre nós</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="index.php?page=login">Login Cadastro</a>
+      <a class="nav-link" href="index.php?page=login"><u> Login Cadastro</u></a>
     </li>
   </ul>
 

@@ -19,7 +19,7 @@
     width: 100%;
     font-size: 100%;
     text-align: center;
-	background-color: #851944;
+	background-color:indigo;
 	color: #FFF;
     padding: 1.25rem;
 	border-bottom: .5rem solid black;
@@ -35,7 +35,7 @@
     float:right;
     position: relative;
     text-align: center;
-    background-color: #851944;
+    background-color: indigo;
     color: #f2fffc;
     height: 200px;
     width: 218.5px;
