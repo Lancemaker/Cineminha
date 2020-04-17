@@ -55,4 +55,18 @@
             </div>
         </div>
     </div>
+    <div class="col-md-4">
+        <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+                
+                <h4 class="mb-0">Makaya Afonso</h4>
+                <strong class="d-inline-block mb-2 text-primary">Desenvolvedor Júnior</strong>
+                <p class="card-text mb-auto">não sei dar print screen com o mouse :)</p>
+                <a href="index.php?page=CVMakaya" class="stretched-link">Seguir para currículo</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+                <img width='60px' height='60px' src="../assets/thumbs/makaya.png" alt="makaya">
+            </div>
+        </div>
+    </div>
 </div>
