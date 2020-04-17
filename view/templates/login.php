@@ -26,6 +26,10 @@
                     <i class="far fa-envelope icon-modify" style="padding: 5px"></i>
                     <input type="email" placeholder="Email" id="email">
                 </label>
+                <label class="label-input" for="">
+                    <i class="far fa-envelope icon-modify" style="padding: 5px"></i>
+                    <input type="email" placeholder="Repita o e-mail" id="email2">
+                </label>
 
                 <label class="label-input" for="">
                     <i class="fas fa-lock icon-modify" style="padding: 5px"></i>
@@ -68,7 +72,7 @@
                 </label>
                 <label class="label-input" for="">
                     <i class="fas icon-modify" style="padding: 5px"></i>
-                    <textarea id="w3mission" rows="4" cols="50" id="msg">Deixe uma mensagem</textarea>
+                    <textarea id="w3mission" rows="2" cols="50" id="msg">Deixe uma mensagem</textarea>
                 </label>
                 <input type="button" onclick="formSend()" class="btn-login btn-second" value="Cadastrar"/>
             </form>            
@@ -144,6 +148,7 @@
         var msg = "preencha corretamente os campos :";
 
         console.log(nome.value);
+        console.log(email.value);
     }
 
     
