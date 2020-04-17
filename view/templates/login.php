@@ -146,9 +146,6 @@
         var msg = document.getElementById('msg');
         var arr={nome,email,pass,pass2,data,sexM,sexF,fixo,cel,adress,msg};
         var msg = "preencha corretamente os campos :";
-
-        console.log(nome.value);
-        console.log(email.value);
     }
 
     
