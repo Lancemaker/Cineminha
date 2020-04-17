@@ -26,6 +26,10 @@
                     <i class="far fa-envelope icon-modify" style="padding: 5px"></i>
                     <input type="email" placeholder="Email" id="email">
                 </label>
+                <label class="label-input" for="">
+                    <i class="far fa-envelope icon-modify" style="padding: 5px"></i>
+                    <input type="email" placeholder="Repita o e-mail" id="email2">
+                </label>
 
                 <label class="label-input" for="">
                     <i class="fas fa-lock icon-modify" style="padding: 5px"></i>
@@ -68,7 +72,7 @@
                 </label>
                 <label class="label-input" for="">
                     <i class="fas icon-modify" style="padding: 5px"></i>
-                    <textarea id="w3mission" rows="4" cols="50" id="msg">Deixe uma mensagem</textarea>
+                    <textarea id="w3mission" rows="2" cols="50" id="msg">Deixe uma mensagem</textarea>
                 </label>
                 <input type="button" onclick="formSend()" class="btn-login btn-second" value="Cadastrar"/>
             </form>            
@@ -131,6 +135,7 @@
     function formSend(){
         var nome = document.getElementById('nome');
         var email = document.getElementById('email');
+        var email2 = document.getElementById('email2');
         var pass = document.getElementById('pass');
         var pass2 = document.getElementById('pass2');
         var data = document.getElementById('data'); 
@@ -141,23 +146,29 @@
         var adress = document.getElementById('adress');
         var msg = document.getElementById('msg');
         var arr={nome,email,pass,pass2,data,sexM,sexF,fixo,cel,adress,msg};
-        var erro = "preencha corretamente os campos : ";
+        var erro = "preencha corretamente os campos : \n\n";
         var errado=false
 
         if(pass.value == "" || pass2.value=="" || pass2.value!=pass.value){
-            erro += "passwords nao equivalentes ou vazias";
+            erro += "passwords nao equivalentes ou vazias\n\n";
             errado=true;
         }   
-
-        if(nome.value == null || nome.value==""){
-            erro += "passwords nao equivalentes ou vazias";
+        if(email.value == "" || email2.value=="" || email2.value!=email.value){
+            erro += "email nao equivalentes ou vazios\n\n";
             errado=true;
         } 
 
-        if(erro){
-            console.log(erro);
-        }
+        if(nome.value == null || nome.value==""){
+            erro += "nome vazio";
+            errado=true;
+        } 
 
+        if(errado){
+            alert(erro);
+        }
+        else{
+            alert("Cadastro feito com sucesso");
+        }
         
 
     }   
