@@ -34,15 +34,19 @@
 
                 <label class="label-input" for="">
                     <i class="fas fa-calendar icon-modify" style="padding: 5px"></i>
-                    <input oninput="mascara(this, 'data')" class="input-text" type="text" name="dataNascimento" placeholder="DD/MM/AAAA" width="50%" />
+                    <input oninput="mascara(this, 'data')" class="input-text" type="date" name="dataNascimento" placeholder="DD/MM/AAAA" width="50%" />
                 </label>
 
                 <label class="label-input-radio">
                     <p>Qual o seu sexo?</p>
-                    <input type="radio" name="sexo" value="M">
-                    <p style="text-align: center">Masculino</p>
-                    <input type="radio" name="sexo" value="F">
-                    <p style="text-align: center">Feminino</p>
+                    <div class='male'>
+                      <input type="radio" name="sexo" value="M">
+                      <p style="text-align: center">Masculino</p>
+                    </div>
+                    <div class="female">
+                      <input type="radio" name="sexo" value="F">
+                      <p style="text-align: center">Feminino</p>
+                    </div>
                 </label>
 
                 <label class="label-input" for="">

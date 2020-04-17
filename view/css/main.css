@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 @import url('Curriculo.css');
+/* CSS Reset input and textarea outline */
+textarea:focus, 
+input:focus {
+  outline:0px !important;
+  box-shadow: none !important;
+}
+
 /*
 /*Main
 */
@@ -243,6 +250,23 @@ Menu Login/Cadastro
     color: #787878;
 }
 
+.label-input-radio .male,
+.label-input-radio .female {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: left;
+  position: relative;
+  margin: 5px 0;
+}
+
+.label-input-radio .male  p,
+.label-input-radio .female  p {
+  margin: 0;
+  position: absolute;
+  left: 30px;
+}
+
 .label-input{
     background-color: #ecf0f1;
     display: flex;
@@ -391,6 +415,12 @@ Animação css
 .input-text{
     width: 80%;
 }
+
+input[type=date]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  display: none;
+}
+
 .cadastrar{
     width: 25%;
     margin: 0px 169px;
