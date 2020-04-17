@@ -250,6 +250,23 @@ Menu Login/Cadastro
     color: #787878;
 }
 
+.label-input-radio .male,
+.label-input-radio .female {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: left;
+  position: relative;
+  margin: 5px 0;
+}
+
+.label-input-radio .male  p,
+.label-input-radio .female  p {
+  margin: 0;
+  position: absolute;
+  left: 30px;
+}
+
 .label-input{
     background-color: #ecf0f1;
     display: flex;
