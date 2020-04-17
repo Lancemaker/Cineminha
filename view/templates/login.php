@@ -16,56 +16,61 @@
                 </a>
             </div>
             <h2 class="title title-second">Criar Conta</h2>
-            <form onsubmit="callModal(e)" class="form">
+            <form id="cadastroForm" class="form">
                 <label class="label-input " for="">
                     <i class="far fa-user icon-modify" style="padding: 5px"></i>
-                    <input type="text" placeholder="Nome">
+                    <input type="text" placeholder="Nome" id="nome">
                 </label>
 
                 <label class="label-input" for="">
                     <i class="far fa-envelope icon-modify" style="padding: 5px"></i>
-                    <input type="email" placeholder="Email">
+                    <input type="email" placeholder="Email" id="email">
                 </label>
 
                 <label class="label-input" for="">
                     <i class="fas fa-lock icon-modify" style="padding: 5px"></i>
-                    <input type="password" placeholder="Senha">
+                    <input type="password" placeholder="Senha" id="pass">
+                </label>
+
+                <label class="label-input" for="">
+                    <i class="fas fa-lock icon-modify" style="padding: 5px"></i>
+                    <input type="password" placeholder="Repita a senha" id="pass2">
                 </label>
 
                 <label class="label-input" for="">
                     <i class="fas fa-calendar icon-modify" style="padding: 5px"></i>
-                    <input oninput="mascara(this, 'data')" class="input-text" type="date" name="dataNascimento" placeholder="DD/MM/AAAA" width="50%" />
+                    <input oninput="mascara(this, 'data')" class="input-text" type="date" name="dataNascimento" placeholder="DD/MM/AAAA" width="50%" id="datanascimento" id="data"/>
                 </label>
 
                 <label class="label-input-radio">
                     <p>Qual o seu sexo?</p>
                     <div class='male'>
-                      <input type="radio" name="sexo" value="M">
+                      <input type="radio" name="sexo" value="M" id="sexM">
                       <p style="text-align: center">Masculino</p>
                     </div>
                     <div class="female">
-                      <input type="radio" name="sexo" value="F">
+                      <input type="radio" name="sexo" value="F" id="sexF">
                       <p style="text-align: center">Feminino</p>
                     </div>
                 </label>
 
                 <label class="label-input" for="">
                     <i class="fas fa-phone icon-modify" style="padding: 5px"></i>
-                    <input oninput="mascara(this, 'tel')" class="input-text" type="text" placeholder="XXXX-XXXX" />
+                    <input oninput="mascara(this, 'tel')" class="input-text" type="text" placeholder="XXXX-XXXX" id="telfixo"/>
                 </label>
                 <label class="label-input" for="">
                     <i class="fas fa-mobile-alt icon-modify" style="padding: 5px"></i>
-                    <input oninput="mascara(this, 'tel')" class="input-text" type="text" name="telefone celular" placeholder="XXXXX-XXXX" maxlength="9" />
+                    <input oninput="mascara(this, 'tel')" class="input-text" type="text" name="telefone celular" placeholder="XXXXX-XXXX" maxlength="9" id="cel" />
                 </label>
                 <label class="label-input" for=""><br>
                     <i class="fas fa-road icon-modify" style="padding: 5px"></i>
-                    <input class="input-text" type="text" name="endereco" placeholder="Endereço"/>
+                    <input class="input-text" type="text" name="endereco" placeholder="Endereço" id="adress"/>
                 </label>
                 <label class="label-input" for="">
                     <i class="fas icon-modify" style="padding: 5px"></i>
-                    <textarea id="w3mission" rows="4" cols="50"></textarea>
+                    <textarea id="w3mission" rows="4" cols="50" id="msg">Deixe uma mensagem</textarea>
                 </label>
-                <input type="submit" class="btn-login btn-second" value="Cadastrar"/>
+                <input type="button" onclick="formSend()" class="btn-login btn-second" value="Cadastrar"/>
             </form>            
         </div>
     </div>
@@ -123,7 +128,24 @@
 </div>
 <script src="view/js/main.js"></script>
 <script>
-    function submit(event){
-        console.log(event);
+    function formSend(){
+        var nome = document.getElementById('nome');
+        var email = document.getElementById('email');
+        var pass = document.getElementById('pass');
+        var pass2 = document.getElementById('pass2');
+        var data = document.getElementById('data'); 
+        var sexM = document.getElementById('sexM'); 
+        var sexF = document.getElementById('sexF');
+        var fixo = document.getElementById('telfixo');
+        var cel = document.getElementById('cel');
+        var adress = document.getElementById('adress');
+        var msg = document.getElementById('msg');
+        var arr={nome,email,pass,pass2,data,sexM,sexF,fixo,cel,adress,msg};
+        var msg = "preencha corretamente os campos :";
+
+        console.log(nome.value);
     }
+
+    
+    
 </script>
