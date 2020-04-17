@@ -16,7 +16,7 @@
                 </a>
             </div>
             <h2 class="title title-second">Criar Conta</h2>
-            <form action="" class="form">
+            <form onsubmit="callModal(e)" class="form">
                 <label class="label-input " for="">
                     <i class="far fa-user icon-modify" style="padding: 5px"></i>
                     <input type="text" placeholder="Nome">
@@ -61,8 +61,8 @@
                     <i class="fas icon-modify" style="padding: 5px"></i>
                     <textarea id="w3mission" rows="4" cols="50"></textarea>
                 </label>
-            </form>
-            <input type="button" class="btn-login btn-second" onclick="location.href=href='index.php?page=main';" value="sign up" />
+                <input type="submit" class="btn-login btn-second" value="Cadastrar"/>
+            </form>            
         </div>
     </div>
     <!-- Segundo Conteudo-->
@@ -118,3 +118,8 @@
     </div>
 </div>
 <script src="view/js/main.js"></script>
+<script>
+    function submit(event){
+        console.log(event);
+    }
+</script>
