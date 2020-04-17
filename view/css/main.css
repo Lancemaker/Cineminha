@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 @import url('Curriculo.css');
+/* CSS Reset input and textarea outline */
+textarea:focus, 
+input:focus {
+  outline:0px !important;
+  box-shadow: none !important;
+}
+
 /*
 /*Main
 */
