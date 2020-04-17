@@ -415,6 +415,12 @@ Animação css
 .input-text{
     width: 80%;
 }
+
+input[type=date]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  display: none;
+}
+
 .cadastrar{
     width: 25%;
     margin: 0px 169px;
