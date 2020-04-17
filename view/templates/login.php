@@ -141,11 +141,24 @@
         var adress = document.getElementById('adress');
         var msg = document.getElementById('msg');
         var arr={nome,email,pass,pass2,data,sexM,sexF,fixo,cel,adress,msg};
-        var msg = "preencha corretamente os campos :";
+        var erro = "preencha corretamente os campos : ";
+        var errado=false
 
-        console.log(nome.value);
-    }
+        if(pass.value == "" || pass2.value=="" || pass2.value!=pass.value){
+            erro += "passwords nao equivalentes ou vazias";
+            errado=true;
+        }   
 
-    
-    
+        if(nome.value == null || nome.value==""){
+            erro += "passwords nao equivalentes ou vazias";
+            errado=true;
+        } 
+
+        if(erro){
+            console.log(erro);
+        }
+
+        
+
+    }   
 </script>
