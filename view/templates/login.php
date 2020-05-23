@@ -74,7 +74,9 @@
                     <i class="fas icon-modify" style="padding: 5px"></i>
                     <textarea id="w3mission" rows="2" cols="50" id="msg">Deixe uma mensagem</textarea>
                 </label>
-                <input type="button" onclick="formSend()" class="btn-login btn-second" value="Cadastrar"/>
+                <a class="nav-link" href="index.php?page=cadastro">
+                    <input type="button" onclick="formSend()" class="btn-login btn-second" value="Cadastrar"/>
+                </a>
             </form>            
         </div>
     </div>
