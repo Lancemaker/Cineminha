@@ -74,7 +74,7 @@
                     <i class="fas icon-modify" style="padding: 5px"></i>
                     <textarea id="w3mission" rows="2" cols="50" id="msg">Deixe uma mensagem</textarea>
                 </label>
-                <a class="nav-link" href="index.php?page=cadastro">
+                <a class="nav-link" href="index.php?page=controller/ProdutosController">
                     <input type="button" onclick="formSend()" class="btn-login btn-second" value="Cadastrar"/>
                 </a>
             </form>            
@@ -171,7 +171,25 @@
         else{
             alert("Cadastro feito com sucesso");
         }
-        
-
     }   
+    function post(path, params, method='post') {
+        // The rest of this code assumes you are not using a library.
+        // It can be made less wordy if you use one.
+        const form = document.createElement('form');
+        form.method = method;
+        form.action = path;
+
+        for (const key in params) {
+        if (params.hasOwnProperty(key)) {
+            const hiddenField = document.createElement('input');
+            hiddenField.type = 'hidden';
+            hiddenField.name = key;
+            hiddenField.value = params[key];
+
+            form.appendChild(hiddenField);
+        }
+        }
+        document.body.appendChild(form);
+        form.submit();
+    }
 </script>

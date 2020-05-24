@@ -1,9 +1,6 @@
-  <!--Header 
-  se liga nesse site. To usando como base do layout https://vimeo.com/ondemand
-  -->
   <?php
-  use controller\ProdutosController as produtos;
-  use controller\LoginController as login;
+  include_once 'controller/LoginController.php';
+  use controllers\LoginController as Login;
   /* 
   Todos os links do menu sao requests de pagina que vao ser carregados no Main Content dinamicamente.
   Assim o Header (o menu e as configuracoes do bootstrap) e o footer nao mudam.
@@ -25,8 +22,8 @@
     return $input;
   }
   $page=trataRota($page);
-  echo 'valor de page: '.$page;
-
+  //echo 'valor de page: '.$page;
+  $login = new Login();
   include 'view/templates/header.php';
   ?>
   <!--Header end-->

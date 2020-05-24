@@ -1,4 +1,5 @@
 <?php 
+namespace models;
     Class Produto{
         private $NomeProduto;
         private $PrecoProduto;
