@@ -9,7 +9,9 @@
   Assim o Header (o menu e as configuracoes do bootstrap) e o footer nao mudam.
   */
 
+  if(isset($_GET['page'])){
   $rota=($_GET['page']);
+  }
 
   if(isset($rota) && $rota != '' ){ //se houver um request e este request de pagina nao for vazio   
     $page = $rota; //set a variavel o nome do arquivo a ser servido.
