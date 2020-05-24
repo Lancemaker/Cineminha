@@ -25,7 +25,7 @@
     return $input;
   }
   $page=trataRota($page);
-  echo 'valor de page: '.$page;
+  // echo 'valor de page: '.$page;
 
   include 'view/templates/header.php';
   ?>
