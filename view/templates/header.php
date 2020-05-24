@@ -23,30 +23,23 @@
         <div class="collapse navbar-collapse" id="navbarsExample07XL" style="margin-left: 21%;">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.php?page=horarios">Horários</a>
+              <a class="nav-link" href="index.php?page=templates/horarios">Horários</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.php?page=institucional">Institucional</a>
+              <a class="nav-link" href="index.php?page=templates/institucional">Institucional</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.php?page=sobrenos">Sobre Nós</a>
+              <a class="nav-link" href="index.php?page=controller/ProdutosController">Produtos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.php?page=login"><u> Login/Cadastro</u></a>
+              <a class="nav-link" href="index.php?page=templates/sobrenos">Sobre Nós</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.php?page=templates/login"><u> Login/Cadastro</u></a>
             </li>
             <div class="icon-login">
               <img src="assets/thumbs/person.svg" height="30" width="30">
             </div>
-            <!-- <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="dropdown07XL" data-toggle="dropdown" aria-expanded="false">Dropdown</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown07XL">              
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li> -->
           </ul>
         </div>
       </div>
