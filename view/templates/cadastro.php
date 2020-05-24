@@ -20,12 +20,9 @@
             <input type="checkbox" id="pipoca" name="pipoca" style="margin-left: 37%">
             <label for="pipoca">Pipoca</label>
             </div>
+            <div style="width: 42%; margin:0 auto">
             <input type="button" id="signin" class="btn-login btn-second cadastro" style="margin-top: 25px; margin-left: 91px" onclick="location.href='http://localhost/index.php?page=main';" value="Cadastrar" />
+        </div>
         </div>
         <script src="jquery.js" type="text/javascript"></script>
         <script src="jquery.maskedinput.js" type="text/javascript"></script>
-
-    
-
-</div>
-<script src="view/js/main.js"></script>
