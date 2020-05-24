@@ -24,9 +24,9 @@
                 <label for="pipoca">Pipoca</label>
             </div>
             </div>
-            <div style="width: 25%; margin:0 auto">
+            <div style="width: 150px; margin:0 auto">
                  <input type="button" id="signin" class="btn-login btn-second cadastro"  
-                 style="margin-top: 25px; margin-left: 91px" onclick="location.href='http://localhost/index.php?page=main';" value="Cadastrar" />
+                 style="margin-top: 25px;" onclick="location.href='http://localhost/index.php?page=main';" value="Cadastrar" />
             </div>
             
             <br>    
