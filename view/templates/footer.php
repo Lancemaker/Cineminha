@@ -13,16 +13,16 @@
 
   <ul class="nav justify-content-center">
   <li class="nav-item">
-      <a class="nav-link" href="index.php?page=horarios">Horários</a>
+    <a class="nav-link" href="index.php?page=templates/horarios">Horários</a>
+  </li>
+    <li class="nav-item">
+      <a class="nav-link" href="index.php?page=templates/institucional">Institucional</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link active" color="white" href="index.php?page=institucional">Institucional</a>
+      <a class="nav-link" href="index.php?page=templates/sobrenos">Sobre Nós</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="index.php?page=sobrenos">Sobre nós</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="index.php?page=login"><u> Login Cadastro</u></a>
+      <a class="nav-link" href="index.php?page=templates/login"><u> Login Cadastro</u></a>
     </li>
   </ul>
 
