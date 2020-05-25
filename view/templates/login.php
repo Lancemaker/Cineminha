@@ -81,7 +81,7 @@
                     <textarea id="w3mission" rows="2" cols="50" id="msg" name='msg' placeholder="Deixei sua mensagem aqui..."></textarea>
                 </label>                
                     <input type="hidden" name='metodo' value="cadastro">
-                    <input type="button" onClick="sendForm()" class="btn-login btn-primary" value="cadastro">                
+                    <input type="button" onClick="sendForm()" class="btn-login btn-primary" value="cadastro" style="background-color: #343a40">                
             </form>  
 
         </div>
@@ -132,7 +132,7 @@
                     <i class="fas fa-lock icon-modify" style="padding: 5px"></i>
                     <input type="password" placeholder="Senha" name='pass'>
                 </label>
-                <input type="submit" class="btn-login btn-second" name='metodo' value="login">
+                <input type="submit" class="btn-login btn-second" name='metodo' value="login" style="background-color: #343a40">
             </form>
         </div>
     </div>
