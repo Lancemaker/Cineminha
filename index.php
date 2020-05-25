@@ -9,14 +9,13 @@
   session_start(); 
   
   if($_POST['metodo']=='cadastro'){    
-    echo 'cadastro:';
     $login = new Login();    
   }
   if($_POST['metodo']=='login'){;
     $_SESSION['logado'] = Login::checaLogin($_POST['login'],$_POST['pass']);         
   }
   if($_POST['metodo']=='logout'){;
-    session_destroy();         
+    $_SESSION['logado']=0;         
   }
   else{
     

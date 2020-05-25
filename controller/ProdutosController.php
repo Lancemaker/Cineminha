@@ -4,6 +4,7 @@ class ProdutosController{
 public $login;
 public $teste;
 function init(){
+        
         if($_SESSION['logado']){
             include'./view/templates/cadastroProduto.php'; 
             return;
@@ -13,7 +14,8 @@ function init(){
             include'./view/templates/login.php'; 
             
         //$this->login = new LoginController();              
-    }
+        }
+        
 }
 ProdutosController::init();
 ?>
