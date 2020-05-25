@@ -42,7 +42,7 @@
               
               echo'<form name="myform" action="" method="post">              
               <input type="hidden" name="metodo" value="logout"/>
-              <input type="submit" value=logout>
+              <input type="submit" value=logout class="btn-login btn-produto">
               </form>';
             }
             ?>

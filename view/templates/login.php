@@ -81,7 +81,7 @@
                     <textarea id="w3mission" rows="2" cols="50" id="msg" name='msg'>Deixe uma mensagem</textarea>
                 </label>                
                     <input type="hidden" name='metodo' value="cadastro">
-                    <input type="button" onClick="sendForm()">                
+                    <input type="button" onClick="sendForm()" class="btn-login btn-primary" value="cadastro">                
             </form>  
 
         </div>

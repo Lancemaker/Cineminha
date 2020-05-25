@@ -49,6 +49,8 @@
     <img src="assets/thumbs/dbox.jpg" alt="dbox" width="350" style="display:block; margin-left: auto; margin-right: auto;">
     <img src="assets/thumbs/xd.png" alt="xd" width="350" style="display:block; margin-left: auto; margin-right: auto;">
     <img src="assets/thumbs/pipoca.jpg" alt="pipoca" width="350" style="display:block; margin-left: auto; margin-right: auto;">
+    <img src="assets/thumbs/refri.jpeg" alt="refri" width="350" style="display:block; margin-left: auto; margin-right: auto;">
+    <img src="assets/thumbs/M&Ms.jpg" alt="M&Ms" width="350" style="display:block; margin-left: auto; margin-right: auto;">
 
 
   </div>
