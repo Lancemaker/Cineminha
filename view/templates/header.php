@@ -41,7 +41,7 @@
               <img src="assets/thumbs/person.svg" height="30" width="30" style="margin-right: 13px">
             </div>
             <?php
-            if(isset($_SESSION['logado'])){
+            if(isset($_SESSION['logado']) && $_SESSION['logado']==1){
               print_r($_SESSION['nome']);
               echo'<form name="myform" action="" method="post">              
               <input type="hidden" name="metodo" value="logout"/>

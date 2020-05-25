@@ -123,7 +123,7 @@
                 </ul>
             </div>
             <p class="descricao">Ou use seu email para registro</p>
-            <form action="" class="form" method="post" action="">
+            <form action="" class="form" method="post" action="index.php?page=controller/ProdutosController">
                 <label class="label-input" for="">
                     <i class="far fa-envelope icon-modify" style="padding: 5px"></i>
                     <input type="email" placeholder="Email" name='login'>
