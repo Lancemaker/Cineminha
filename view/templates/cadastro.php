@@ -10,13 +10,13 @@
             <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
             <div>
                 <img src="assets/thumbs/dbox.jpg" alt="dbox" width="350" style="display:block; margin-left: auto; margin-right: auto;">
-                <input type="checkbox" id="dbox" name="DBOX" style="margin-left: 37%">
-                <label for="DBOX">DBOX</label>
+                <input type="checkbox" id="dbox" name="dbox" style="margin-left: 37%">
+                <label for="dbox">DBOX</label>
             </div>
             <div>
                 <img src="assets/thumbs/xd.png" alt="xd" width="350" style="display:block; margin-left: auto; margin-right: auto;">
-                <input type="checkbox" id="xd" name="XD" style="margin-left: 37%">
-                <label for="XD">XD</label>
+                <input type="checkbox" id="xd" name="xd" style="margin-left: 37%">
+                <label for="xd">XD</label>
             </div>
             <div>
                 <img src="assets/thumbs/pipoca.jpg" alt="pipoca" width="350" style="display:block; margin-left: auto; margin-right: auto;">
