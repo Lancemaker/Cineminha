@@ -7,6 +7,9 @@ function init(){
             include'./view/templates/cadastroProduto.php'; 
             return;
         }          
+        
+            include './view/templates/ProdutosController.php/AcessoNegado';
+
             include'./view/templates/login.php'; 
             
         //$this->login = new LoginController();              
@@ -14,3 +17,8 @@ function init(){
 }
 ProdutosController::init();
 ?>
+
+<script class="AcessoNegado">
+
+alert("Acesso Negado");
+</script>

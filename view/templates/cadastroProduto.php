@@ -46,7 +46,7 @@
 
                 </div>
                 <div style="width: 150px; margin:0 auto; height: 8%">
-                    <input type="input" id="signin" class="btn-login btn-produto title-cadastro" style="margin-top: 25px;" value="listar" />
+                    <input type="submit" id="signin" class="btn-login btn-produto title-cadastro" style="margin-top: 25px;" value="Listar" />
 
                 </div>
             </form>
