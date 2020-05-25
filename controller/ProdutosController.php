@@ -2,7 +2,7 @@
 namespace controllers;
 class ProdutosController{
 public $login;
-    function init(){               
+function init(){           
         include'./view/templates/cadastro.php';  
         //$this->login = new LoginController();              
     }
