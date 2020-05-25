@@ -28,8 +28,26 @@
                     <label for="pipoca">Pipoca</label>
                 </div>
 
+                <div>
+                    <img src="assets/thumbs/refri.jpeg" alt="refrigerante" width="350" style="display:block; margin-left: auto; margin-right: auto;">
+                    <input type="checkbox" id="refrigerante" name="refrigerante" style="margin-left: 37%">
+                    <label for="refrigerante">Refrigerante</label>
+                </div>
+
+
+                <div>
+                    <img src="assets/thumbs/M&Ms.jpg" alt="Doces" width="350" style="display:block; margin-left: auto; margin-right: auto;">
+                    <input type="checkbox" id="doce" name="Doces" style="margin-left: 37%">
+                    <label for="Doces">Doces</label>
+                </div>
+
                 <div style="width: 150px; margin:0 auto; height: 8%">
                     <input type="submit" id="signin" class="btn-login btn-produto title-cadastro" style="margin-top: 25px;" value="Incluir" />
+
+                </div>
+                <div style="width: 150px; margin:0 auto; height: 8%">
+                    <input type="input" id="signin" class="btn-login btn-produto title-cadastro" style="margin-top: 25px;" value="listar" />
+
                 </div>
             </form>
 

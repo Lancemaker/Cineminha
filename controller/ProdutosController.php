@@ -3,7 +3,7 @@ namespace controllers;
 class ProdutosController{
 public $login;
 function init(){           
-        include'./view/templates/cadastro.php';  
+        include'./view/templates/cadastroProduto.php';  
         //$this->login = new LoginController();              
     }
 }
