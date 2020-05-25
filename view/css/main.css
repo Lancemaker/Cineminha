@@ -149,6 +149,12 @@ Menu Login/Cadastro
     border: none;
 
 }
+
+.btn-produto{
+    background-color: white;
+    color: black;
+}
+
 .btn-primary{
     background-color: transparent;
     border: 1px solid white;

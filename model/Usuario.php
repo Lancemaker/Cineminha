@@ -21,8 +21,8 @@ class Usuario {
     public function montaUsuario($nome,$email,$senha,$dataNascimento,$sexo,$telefone,$celular,$endereco,$mensagem){
 
          $usuarioMontado = array($nome + $email + $senha + $dataNascimento + $sexo + $telefone + $celular + $endereco + $mensagem);
-
-         return $usuarioMontado;
+         
+         return $usuarioMontado;     
     }
 
     public function valida($email, $confirmarEmail, $senha, $confirmarSenha){
