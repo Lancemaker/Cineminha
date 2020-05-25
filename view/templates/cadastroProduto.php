@@ -49,6 +49,22 @@
                     <input type="input" id="signin" class="btn-login btn-produto title-cadastro" style="margin-top: 25px;" value="listar" />
 
                 </div>
+
+                <br>
+                <table class="table">
+                    <tr>
+                        <th scope="col" style ="background-color:white">Produto</th>
+                        <th scope="col"style ="background-color:white"></th>
+                    </tr>
+                <tbody>
+                    <tr>
+                    <th scope="row" style ="background-color:grey">Doce</th>
+                    <td> 
+                        <input type="submit" id="signin" class="btn-login btn-produto title-cadastro"  value="Incluir"/>
+                    </td>
+                    </tr>
+                </tbody>
+                </table>
             </form>
 
         </div>
