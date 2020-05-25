@@ -78,7 +78,7 @@
                 </label>
                 <label class="label-input" for="">
                     <i class="fas icon-modify" style="padding: 5px"></i>
-                    <textarea id="w3mission" rows="2" cols="50" id="msg" name='msg'>Deixe uma mensagem</textarea>
+                    <textarea id="w3mission" rows="2" cols="50" id="msg" name='msg'></textarea>
                 </label>                
                     <input type="hidden" name='metodo' value="cadastro">
                     <input type="button" onClick="sendForm()" class="btn-login btn-primary" value="cadastro">                
