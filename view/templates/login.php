@@ -78,9 +78,10 @@
                 </label>
                 <label class="label-input" for="">
                     <i class="fas icon-modify" style="padding: 5px"></i>
-                    <textarea id="w3mission" rows="2" cols="50" id="msg">Deixe uma mensagem</textarea>
+                    <textarea id="w3mission" rows="2" cols="50" id="msg" name='msg'>Deixe uma mensagem</textarea>
                 </label>                
-                    <input type="button" onClick="sendForm()" value="Submit form">                
+                    <input type="hidden" name='metodo' value="cadastro">
+                    <input type="button" onClick="sendForm()">                
             </form>  
 
         </div>
@@ -101,7 +102,7 @@
                     <i class="fas fa-times"></i>
                 </a>
             </div>
-            <h2 class="title title-second">Sign in to Developer</h2>
+            <h2 class="title title-second">Login</h2>
             <div class="midia-social">
                 <ul class="list-social-media">
                     <a class="link-midia-social" href="#">
@@ -122,17 +123,16 @@
                 </ul>
             </div>
             <p class="descricao">Ou use seu email para registro</p>
-            <form action="" class="form">
+            <form action="" class="form" method="post" action="">
                 <label class="label-input" for="">
                     <i class="far fa-envelope icon-modify" style="padding: 5px"></i>
-                    <input type="email" placeholder="Email">
+                    <input type="email" placeholder="Email" name='login'>
                 </label>
                 <label class="label-input" for="">
                     <i class="fas fa-lock icon-modify" style="padding: 5px"></i>
-                    <input type="password" placeholder="Senha">
+                    <input type="password" placeholder="Senha" name='pass'>
                 </label>
-                <a class="link-midia-social password" href="">Esqueceu sua senha?</a>
-                <button class="btn-login btn-second">sign in</button>
+                <input type="submit" class="btn-login btn-second" name='metodo' value="login">
             </form>
         </div>
     </div>

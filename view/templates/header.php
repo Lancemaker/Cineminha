@@ -37,9 +37,23 @@
             <li class="nav-item">
               <a class="nav-link" href="index.php?page=templates/login"><u> Login/Cadastro</u></a>
             </li>
-            <div class="icon-login">
+            <?php
+            if(isset($_SESSION['logado'])){
+              
+              echo'<form name="myform" action="" method="post">              
+              <input type="hidden" name="metodo" value="logout"/>
+              <input type="submit" value=logout>
+              </form>';
+            }
+            ?>
+              <div class="icon-login">
               <img src="assets/thumbs/person.svg" height="30" width="30">
             </div>
+            <?php
+              print_r($_SESSION['nome']);
+           
+            ?>
+            
           </ul>
         </div>
       </div>
