@@ -9,6 +9,7 @@ class LoginController{
 
     function __construct() {
         session_start();
+        
         $this->user = new User();
         $this->setSession($_POST['nome']);
         print_r($this->getsession());

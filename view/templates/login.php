@@ -15,8 +15,14 @@
                     <i class="fas fa-times"></i>
                 </a>
             </div>
+
             <h2 class="title title-second">Criar Conta</h2>
-            <form id="cadastroForm" class="form">
+            <form id="myForm" method="post" action="">
+            First name: <input type="text" name="name"><br>
+            Last name: <input type="text" name="tel"><br><br>
+            <input type="button" onclick="myFunction()" value="Submit form">
+            </form>
+            <form id="cadastroForm" class="form" method="POST" action="">
                 <label class="label-input " for="">
                     <i class="far fa-user icon-modify" style="padding: 5px"></i>
                     <input type="text" placeholder="Nome" id="nome" name='nome'>
@@ -33,7 +39,7 @@
 
                 <label class="label-input" for="">
                     <i class="fas fa-lock icon-modify" style="padding: 5px"></i>
-                    <input type="password" placeholder="Senha" id="pass">
+                    <input type="password" placeholder="Senha" id="pass" name='pass'>
                 </label>
 
                 <label class="label-input" for="">
@@ -60,11 +66,11 @@
 
                 <label class="label-input" for="">
                     <i class="fas fa-phone icon-modify" style="padding: 5px"></i>
-                    <input oninput="mascara(this, 'tel')" class="input-text" type="text" placeholder="XXXX-XXXX" id="telfixo"/>
+                    <input oninput="mascara(this, 'tel')" class="input-text" type="text" placeholder="XXXX-XXXX" id="telfixo" name='tel'/>
                 </label>
                 <label class="label-input" for="">
                     <i class="fas fa-mobile-alt icon-modify" style="padding: 5px"></i>
-                    <input oninput="mascara(this, 'tel')" class="input-text" type="text" name="telefone celular" placeholder="XXXXX-XXXX" maxlength="9" id="cel" />
+                    <input oninput="mascara(this, 'tel')" class="input-text" type="text" name="telefone celular" placeholder="XXXXX-XXXX" maxlength="9" name='cel' id="cel" />
                 </label>
                 <label class="label-input" for=""><br>
                     <i class="fas fa-road icon-modify" style="padding: 5px"></i>
@@ -75,9 +81,11 @@
                     <textarea id="w3mission" rows="2" cols="50" id="msg">Deixe uma mensagem</textarea>
                 </label>
                 <a class="nav-link" href="">
-                    <input type="button" onclick="formSend()" class="btn-login btn-second" value="Cadastrar"/>
+                    <input type="button" class="btn-login btn-second" value="Cadastrar"/>
+                    <!-- <input type="button" onclick="formSend()" class="btn-login btn-second" value="Cadastrar"/> -->
                 </a>
-            </form>            
+            </form>  
+
         </div>
     </div>
     <!-- Segundo Conteudo-->
