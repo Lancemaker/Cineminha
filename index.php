@@ -6,6 +6,23 @@
   Assim o Header (o menu e as configuracoes do bootstrap) e o footer nao mudam.
   */
 
+  session_start(); 
+  
+  if($_POST['metodo']=='cadastro'){    
+    echo 'cadastro:';
+    $login = new Login();    
+  }
+  if($_POST['metodo']=='login'){;
+    $_SESSION['logado'] = Login::checaLogin($_POST['login'],$_POST['pass']);         
+  }
+  if($_POST['metodo']=='logout'){;
+    session_destroy();         
+  }
+  else{
+    
+  }
+  
+
   if(isset($_GET['page'])){
   $rota=($_GET['page']);
   }
@@ -15,16 +32,15 @@
   }else{
     $page = 'templates/main';
   }
-
   
   function trataRota($input){
     if (strpos($input, 'templates')!== false)return "view/".$input;
     return $input;
   }
   $page=trataRota($page);
-  print_r($_POST);
+  
+  
 
-  $login = new Login();
   include 'view/templates/header.php';
   ?>
   <!--Header end-->

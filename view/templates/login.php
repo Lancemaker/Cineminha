@@ -17,12 +17,12 @@
             </div>
 
             <h2 class="title title-second">Criar Conta</h2>
-            <form id="myForm" method="post" action="">
+            <!-- <form id="myForm" method="POST" action="">
             First name: <input type="text" name="name"><br>
             Last name: <input type="text" name="tel"><br><br>
-            <input type="button" onclick="myFunction()" value="Submit form">
-            </form>
-            <form id="cadastroForm" class="form" method="POST" action="">
+            <input name="btn" type="submit" value="Enviar"/>
+            </form> -->
+            <form name="myform" id="cadastroForm" class="form" method="post" action="">
                 <label class="label-input " for="">
                     <i class="far fa-user icon-modify" style="padding: 5px"></i>
                     <input type="text" placeholder="Nome" id="nome" name='nome'>
@@ -78,12 +78,10 @@
                 </label>
                 <label class="label-input" for="">
                     <i class="fas icon-modify" style="padding: 5px"></i>
-                    <textarea id="w3mission" rows="2" cols="50" id="msg">Deixe uma mensagem</textarea>
-                </label>
-                <a class="nav-link" href="">
-                    <input type="button" class="btn-login btn-second" value="Cadastrar"/>
-                    <!-- <input type="button" onclick="formSend()" class="btn-login btn-second" value="Cadastrar"/> -->
-                </a>
+                    <textarea id="w3mission" rows="2" cols="50" id="msg" name='msg' placeholder="Deixei sua mensagem aqui..."></textarea>
+                </label>                
+                    <input type="hidden" name='metodo' value="cadastro">
+                    <input type="button" onClick="sendForm()" class="btn-login btn-primary" value="cadastro" style="background-color: #343a40">                
             </form>  
 
         </div>
@@ -104,7 +102,7 @@
                     <i class="fas fa-times"></i>
                 </a>
             </div>
-            <h2 class="title title-second">Sign in to Developer</h2>
+            <h2 class="title title-second">Login</h2>
             <div class="midia-social">
                 <ul class="list-social-media">
                     <a class="link-midia-social" href="#">
@@ -125,24 +123,23 @@
                 </ul>
             </div>
             <p class="descricao">Ou use seu email para registro</p>
-            <form action="" class="form">
+            <form action="" class="form" method="post" action="">
                 <label class="label-input" for="">
                     <i class="far fa-envelope icon-modify" style="padding: 5px"></i>
-                    <input type="email" placeholder="Email">
+                    <input type="email" placeholder="Email" name='login'>
                 </label>
                 <label class="label-input" for="">
                     <i class="fas fa-lock icon-modify" style="padding: 5px"></i>
-                    <input type="password" placeholder="Senha">
+                    <input type="password" placeholder="Senha" name='pass'>
                 </label>
-                <a class="link-midia-social password" href="">Esqueceu sua senha?</a>
-                <button class="btn-login btn-second">sign in</button>
+                <input type="submit" class="btn-login btn-second" name='metodo' value="login" style="background-color: #343a40">
             </form>
         </div>
     </div>
 </div>
 <script src="view/js/main.js"></script>
 <script>
-    function formSend(){
+    function sendForm(){
         var nome = document.getElementById('nome');
         var email = document.getElementById('email');
         var email2 = document.getElementById('email2');
@@ -178,26 +175,8 @@
         }
         else{
             alert("Cadastro feito com sucesso");
-            //post('',arr);
+            document.getElementById("cadastroForm").submit();
         }
+        //document.getDocumentbyId('cadastroForm').submit();
     }   
-    function post(path, params, method='post') {
-        // The rest of this code assumes you are not using a library.
-        // It can be made less wordy if you use one.
-        var xhr = new XMLHttpRequest();
-        xhr.open("POST",'http://localhost:8080/index.php?page=templates/login', true);
-        xhr.setRequestHeader('Content-Type', 'application/json');
-        xhr.send(JSON.stringify({
-            nome:params[0],
-            email:params[1],
-            pass:params[2],   
-            data:params[4],
-            sexM:params[5],
-            sexF:param[6],
-            fixo:param[7],
-            cel:param[8],
-            adress:param[9],
-            msg:param[10]
-        }));
-    }
 </script>
