@@ -41,16 +41,12 @@
               <img src="assets/thumbs/person.svg" height="30" width="30" style="margin-right: 13px">
             </div>
             <?php
-              print_r($_SESSION['nome']);
-           
-            ?>
-            <?php
             if(isset($_SESSION['logado'])){
-              
+              print_r($_SESSION['nome']);
               echo'<form name="myform" action="" method="post">              
               <input type="hidden" name="metodo" value="logout"/>
               <input type="submit" value=logout class="btn-login btn-produto" style="margin-left: 214px">
-              </form>';
+              </form>'; 
             }
             ?>
           </ul>

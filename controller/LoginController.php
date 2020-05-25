@@ -37,6 +37,7 @@ class LoginController{
         if($login == $_SESSION["email"] && $pass == $_SESSION['pass']){
             return true;
         }
+        echo "<div class='alert alert-danger mt-4 text-center'>Usuário inválido </div>";
             return false;
     }
 }
