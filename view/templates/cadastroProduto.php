@@ -29,7 +29,7 @@
                 </div>
 
                 <div style="width: 150px; margin:0 auto; height: 8%">
-                    <input type="submit" id="signin" class="btn-login btn-produto title-cadastro" style="margin-top: 25px;" value="Cadastrar" />
+                    <input type="submit" id="signin" class="btn-login btn-produto title-cadastro" style="margin-top: 25px;" value="Incluir" />
                 </div>
             </form>
 
