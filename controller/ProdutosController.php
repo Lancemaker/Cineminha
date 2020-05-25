@@ -2,14 +2,14 @@
 namespace controllers;
 class ProdutosController{
 public $login;
+public $teste;
 function init(){
         if($_SESSION['logado']){
             include'./view/templates/cadastroProduto.php'; 
             return;
         }          
-        
-            include './view/templates/ProdutosController.php/AcessoNegado';
-
+            echo "<div class='alert alert-danger mt-4 text-center' > Acesso Negado </div>";
+            echo "<br>";
             include'./view/templates/login.php'; 
             
         //$this->login = new LoginController();              
@@ -17,8 +17,3 @@ function init(){
 }
 ProdutosController::init();
 ?>
-
-<script class="AcessoNegado">
-
-alert("Acesso Negado");
-</script>
