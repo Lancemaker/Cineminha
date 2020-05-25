@@ -19,12 +19,12 @@
             <form id="cadastroForm" class="form">
                 <label class="label-input " for="">
                     <i class="far fa-user icon-modify" style="padding: 5px"></i>
-                    <input type="text" placeholder="Nome" id="nome">
+                    <input type="text" placeholder="Nome" id="nome" name='nome'>
                 </label>
 
                 <label class="label-input" for="">
                     <i class="far fa-envelope icon-modify" style="padding: 5px"></i>
-                    <input type="email" placeholder="Email" id="email">
+                    <input type="email" placeholder="Email" id="email" name='email'>
                 </label>
                 <label class="label-input" for="">
                     <i class="far fa-envelope icon-modify" style="padding: 5px"></i>
@@ -74,7 +74,7 @@
                     <i class="fas icon-modify" style="padding: 5px"></i>
                     <textarea id="w3mission" rows="2" cols="50" id="msg">Deixe uma mensagem</textarea>
                 </label>
-                <a class="nav-link" href="index.php?page=controller/ProdutosController">
+                <a class="nav-link" href="">
                     <input type="button" onclick="formSend()" class="btn-login btn-second" value="Cadastrar"/>
                 </a>
             </form>            
@@ -170,26 +170,26 @@
         }
         else{
             alert("Cadastro feito com sucesso");
+            //post('',arr);
         }
     }   
     function post(path, params, method='post') {
         // The rest of this code assumes you are not using a library.
         // It can be made less wordy if you use one.
-        const form = document.createElement('form');
-        form.method = method;
-        form.action = path;
-
-        for (const key in params) {
-        if (params.hasOwnProperty(key)) {
-            const hiddenField = document.createElement('input');
-            hiddenField.type = 'hidden';
-            hiddenField.name = key;
-            hiddenField.value = params[key];
-
-            form.appendChild(hiddenField);
-        }
-        }
-        document.body.appendChild(form);
-        form.submit();
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST",'http://localhost:8080/index.php?page=templates/login', true);
+        xhr.setRequestHeader('Content-Type', 'application/json');
+        xhr.send(JSON.stringify({
+            nome:params[0],
+            email:params[1],
+            pass:params[2],   
+            data:params[4],
+            sexM:params[5],
+            sexF:param[6],
+            fixo:param[7],
+            cel:param[8],
+            adress:param[9],
+            msg:param[10]
+        }));
     }
 </script>

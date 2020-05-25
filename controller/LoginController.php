@@ -10,14 +10,16 @@ class LoginController{
     function __construct() {
         session_start();
         $this->user = new User();
-        echo 'sessão criada';
+        $this->setSession($_POST['nome']);
+        print_r($this->getsession());
     }   
     
     function getSession(){
-        return $_SESSION["login"];
+        if(isset($_SESSION['nome'])) return $_SESSION["nome"];
+        return 'usuario não logado';
     }
     function setSession($value){
-        $_SESSION["login"]=$value;
+        $_SESSION["user"]=$value;
     }    
 }
 ?>
