@@ -22,7 +22,7 @@
     return $input;
   }
   $page=trataRota($page);
-  print_r($_POST);
+  //print_r($_POST);
 
   $login = new Login();
   include 'view/templates/header.php';

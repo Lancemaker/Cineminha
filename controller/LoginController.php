@@ -8,8 +8,7 @@ class LoginController{
     public $user,$login,$pass;
 
     function __construct() {
-        session_start();
-        
+        session_start();        
         $this->user = new User();
         $this->setSession($_POST['nome']);
         print_r($this->getsession());
@@ -20,7 +19,7 @@ class LoginController{
         return 'usuario não logado';
     }
     function setSession($value){
-        $_SESSION["user"]=$value;
+        $_SESSION["nome"]=$value;
     }    
 }
 ?>
