@@ -11,7 +11,6 @@ class LoginController{
         $this->user = new User();
         if(count($_POST)>0){
         $this->setSession($_POST);
-        print_r($this->getsession());
         }
     }    
     function getSession(){
@@ -25,7 +24,6 @@ class LoginController{
         if($login == $_SESSION["email"] && $pass == $_SESSION['pass']){
             return true;
         }
-        echo "<div class='alert alert-danger mt-4 text-center'>Usuário inválido </div>";
             return false;
     }    
 }
