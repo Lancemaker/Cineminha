@@ -7,7 +7,7 @@
   */
 
   session_start(); 
-  
+
   if($_POST['metodo']=='cadastro'){    
     $login = new Login();    
   }
@@ -16,9 +16,6 @@
   }
   if($_POST['metodo']=='logout'){;
     $_SESSION['logado']=0;         
-  }
-  else{
-    
   }
   
 

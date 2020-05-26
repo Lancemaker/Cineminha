@@ -11,34 +11,39 @@ class Usuario {
     public $senha;
     public $confirmarSenha;
     public $dataNascimento;
-    public $sexo;
+    public $sexM;
+    public $sexF;
     public $telefone;
     public $celular;
     public $endereco;
     public $mensagem;
 
 
-    public function montaUsuario($nome,$email,$senha,$dataNascimento,$sexo,$telefone,$celular,$endereco,$mensagem){
+    public function montaUsuario($arr){
 
-         $usuarioMontado = array($nome + $email + $senha + $dataNascimento + $sexo + $telefone + $celular + $endereco + $mensagem);
-         
-         return $usuarioMontado;     
+        $this->nome=$arr['nome'];
+        $this->email=$arr['email'];
+        $this->confirmarEmail=$arr['pass'];
+        $this->senha=$arr['pass'];
+        $this->confirmarSenha=$arr['date'];
+        $this->dataNascimento=$arr['tel'];
+        $this->sexM=$arr['sexF'];
+        $this->sexF=$arr['sexM'];
+        $this->telefone=$arr['tel'];
+        $this->celular=$arr['cel'];
+        $this->endereco=$arr['endereco'];
+        $this->mensagem=$arr['msg'];
+
+        $_SESSION["nome"]=$arr['nome'];
+        $_SESSION["email"]=$arr['email'];
+        $_SESSION["pass"]=$arr['pass'];
+        $_SESSION["data"]=$arr['date'];
+        $_SESSION["sexM"]=$arr['sexM'];
+        $_SESSION["sexF"]=$arr['sexF'];
+        $_SESSION["tel"]=$arr['tel'];
+        $_SESSION["cel"]=$arr['cel'];
+        $_SESSION["end"]=$arr['endereco'];
+        $_SESSION["msg"]=$arr['msg'];   
     }
-
-    public function valida($email, $confirmarEmail, $senha, $confirmarSenha){
-
-        if($email == $confirmarEmail){
-
-            return $email;
-
-        }else if ($senha == $confirmarSenha){
-
-            return $senha;
-        }else {
-            $email = null;
-            $senha = null;
-        }
-    }
-
 };
 ?>
