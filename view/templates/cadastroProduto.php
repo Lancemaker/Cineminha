@@ -5,10 +5,6 @@
 	</head>
 	<body>
 		<?php include_once 'Products.php' ?>
-		<h1>
-			Olá, logo abaixo você poderá escolher o produto que deseja comprar!
-		</h1>
-
 		<?php
 			if( ! empty( $products ) && is_array( $products ) && $products ) : ?>
 				<table>
