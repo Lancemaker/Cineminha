@@ -134,3 +134,6 @@ if( ! isset( $_SESSION ) ) {
 				</tr>
 			</tbody>
 		</table>
+		<?php
+  include 'view/templates/footer.php';
+  ?>
