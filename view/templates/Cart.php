@@ -6,10 +6,6 @@ if( ! isset( $_SESSION ) ) {
 
 ?>
 		<?php include_once 'Products.php' ?>
-		<h1>
-			Olá, logo abaixo você poderá escolher o produto que deseja comprar!
-		</h1>
-
 		<?php
 			if( ! empty( $products ) && is_array( $products ) && $products ) : ?>
 				<table>
@@ -69,13 +65,7 @@ if( ! isset( $_SESSION ) ) {
 		  crossorigin="anonymous"></script>
 
 	  	<script src="/view/templates/Assets/addProductsToForm.js"></script>
-		<h1>
-			Estamos no nosso último passo!
-		</h1>
-		<h2>
-			Aqui você poderá confirmar os produtos selecionados e o preço total!
-		</h2>
-		
+
 		<table>
 			<thead>
 				<tr>
