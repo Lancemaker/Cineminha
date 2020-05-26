@@ -56,7 +56,7 @@
 			endif
 		?>
 
-		<form method="POST" action="index.php?page=templates/AddProducts" id="formAddProducts">
+		<form method="POST" action="index.php?page=controller/AddProducts" id="formAddProducts">
 			<input type="hidden" name="Products" />
 			<button type="submit">Adicionar ao carrinho</button>
 		</form>

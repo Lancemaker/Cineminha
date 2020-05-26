@@ -62,7 +62,7 @@ if( ! empty( $_POST ) ) {
 if( ! empty( $_SESSION['Products'] ) ) {
 	$_SESSION['ProductsTotal'] = calculateTotal( $_SESSION['Products'], true );
 
-	include_once( 'Cart.php' );
+	include_once( 'view/templates/Cart.php' );
 	die;
 }
 

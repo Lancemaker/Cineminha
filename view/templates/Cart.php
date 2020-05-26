@@ -5,13 +5,6 @@ if( ! isset( $_SESSION ) ) {
 }
 
 ?>
-
-<html>
-	<head>
-		<meta charset="UTF-8"></html>
-		<title>Carrinho</title>
-	</head>
-	<body>
 		<h1>
 			Estamos no nosso último passo!
 		</h1>
@@ -77,5 +70,6 @@ if( ! isset( $_SESSION ) ) {
 				</tr>
 			</tbody>
 		</table>
-	</body>
-</html>
+		<div>
+			<a href="index.php?page=controller/ProdutosController" style='color:blue;'>voltar</a>
+		</div>
