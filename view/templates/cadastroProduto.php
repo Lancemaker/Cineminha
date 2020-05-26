@@ -60,7 +60,7 @@
 			<input type="hidden" name="Products" />
 			<button type="submit">Adicionar ao carrinho</button>
 		</form>
-
+		<a href=""></a>
 		<!-- Scripts do projeto -->
 		<script
 		  src="https://code.jquery.com/jquery-3.5.1.min.js"
