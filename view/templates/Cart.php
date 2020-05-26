@@ -135,6 +135,5 @@ if( ! isset( $_SESSION ) ) {
 			</tbody>
 		</table>
 		<div>
-			<a href="index.php?page=controller/ProdutosController" style='color:blue;'>voltar</a>
+			<a href="index.php?page=controller/ProdutosController" style='color:red;'>Delete</a>
 		</div>
-		<?= print_r($_SESSION,1) ?>
