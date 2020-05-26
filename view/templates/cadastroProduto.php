@@ -46,10 +46,60 @@
 
                 </div>
                 <div style="width: 150px; margin:0 auto; height: 8%">
-                    <input type="submit" id="signin" class="btn-login btn-produto title-cadastro" style="margin-top: 25px;" value="Listar" />
+                    <input type="submit" id="signin" class="btn-login btn-produto title-cadastro" style="margin-top: 25px;" value="listar" />
 
                 </div>
+
+                <br>
             </form>
+            <table class="table">
+                    <tr>
+                        <th scope="col" style ="background-color:white">Produto</th>
+                        <th scope="col"style ="background-color:white"></th>
+                    </tr>
+                <tbody>
+                    <tr>
+                    <th style="color:white">Doce</th>
+                    <td> 
+                            <div style="width: 15px; margin:0 auto; height: 80px">
+                            <input type="submit" id="signin" class="btn-login btn-produto title-cadastro" style="margin-top: 25px;" value="listar" />
+                        </div>
+                    </td>
+                    </tr>
+                    <tr>
+                    <th style="color:white">Pipoca</th>
+                    <td> 
+                            <div style="width: 15px; margin:0 auto; height: 80px">
+                                <input type="submit" id="signin" class="btn-login btn-produto title-cadastro" style="margin-top: 25px;" value="listar" />
+                            </div>
+                    </td>
+                    </tr>
+                    <tr>
+                    <th style="color:white">Refrigerante</th>
+                    <td> 
+                            <div style="width: 15px; margin:0 auto; height: 80px">
+                                <input type="submit" id="signin" class="btn-login btn-produto title-cadastro" style="margin-top: 25px;" value="listar" />
+                            </div>
+                    </td>
+                    </tr>
+                    <tr>
+                    <th style="color:white">DBOX</th>
+                    <td> 
+                            <div style="width: 15px; margin:0 auto; height: 80px">
+                                <input type="submit" id="signin" class="btn-login btn-produto title-cadastro" style="margin-top: 25px;" value="listar" />
+                            </div>
+                    </td>
+                    </tr>
+                    <tr>
+                    <th style="color:white">XD</th>
+                    <td> 
+                            <div style="width: 15px; margin:0 auto; height: 80px">
+                                <input type="submit" id="signin" class="btn-login btn-produto title-cadastro" style="margin-top: 25px;" value="listar" />
+                            </div>
+                    </td>
+                    </tr>
+                </tbody>
+                </table>
 
         </div>
 
