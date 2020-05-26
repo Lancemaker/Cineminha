@@ -1,108 +1,72 @@
-<div class="container-cadastro">
+<html>
+	<head>
+		<meta charset="UTF-8"></html>
+		<title>Adicinar produto ao carrinho</title>
+	</head>
+	<body>
+		<?php include_once 'Products.php' ?>
+		<h1>
+			Olá, logo abaixo você poderá escolher o produto que deseja comprar!
+		</h1>
 
-    <div class="formulario-interno">
-        <h1 class=title-cadastro style="width: 42%; margin:0 auto">Cadastro de Produtos/Serviços</h1>
-        <br>
-        <div style="width: 30%; margin:0 auto">
-            <label class="label-cadastro" for="nome produto" style="text-align:center">Produtos/Serviços<br>
-            </label>
-        </div>
-        <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
-            <form action="" method="post">
+		<?php
+			if( ! empty( $products ) && is_array( $products ) && $products ) : ?>
+				<table>
+					<thead>
+						<tr>
+							<td>
+								Nome do produto
+							</td>
+							<td>
+								Descrição
+							</td>
+							<td>
+								Preço
+							</td>
+							<td>
+								Quantidade
+							</td>
+						</tr>
+					</thead>
+					<tbody>
+				<?php
+					foreach( $products as $product ) : ?>
+						<tr>
+							<td class="product-name">
+								<?= $product['name'] ?>
+							</td>
+							<td class="product-description">
+								<?= $product['description'] ?>
+							</td>
+							<td class="product-price">
+								<?= $product['price'] ?>
+							</td>
+							<td>
+								<input type="number" name="Quantity" min="0" />
+							</td>
+						</tr>
+				<?php 
+				endforeach
+				?>
+					</tbody>
+				</table>
+			<?php 
+			else :
+				echo '<h2>Ops ... Não conseguimos carregar os produtos</h2>';
+			endif
+		?>
 
-                <div>
-                    <img src="assets/thumbs/dbox.jpg" alt="dbox" width="350" style="display:block; margin-left: auto; margin-right: auto;">
-                    <input type="checkbox" id="dbox" name="dbox" style="margin-left: 37%">
-                    <label for="dbox">DBOX</label>
-                </div>
+		<form method="POST" action="index.php?page=templates/AddProducts" id="formAddProducts">
+			<input type="hidden" name="Products" />
+			<button type="submit">Adicionar ao carrinho</button>
+		</form>
 
-                <div>
-                    <img src="assets/thumbs/xd.png" alt="xd" width="350" style="display:block; margin-left: auto; margin-right: auto;">
-                    <input type="checkbox" id="xd" name="xd" style="margin-left: 37%">
-                    <label for="xd">XD</label>
-                </div>
+		<!-- Scripts do projeto -->
+		<script
+		  src="https://code.jquery.com/jquery-3.5.1.min.js"
+		  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+		  crossorigin="anonymous"></script>
 
-                <div>
-                    <img src="assets/thumbs/pipoca.jpg" alt="pipoca" width="350" style="display:block; margin-left: auto; margin-right: auto;">
-                    <input type="checkbox" id="pipoca" name="pipoca" style="margin-left: 37%">
-                    <label for="pipoca">Pipoca</label>
-                </div>
-
-                <div>
-                    <img src="assets/thumbs/refri.jpeg" alt="refrigerante" width="350" style="display:block; margin-left: auto; margin-right: auto;">
-                    <input type="checkbox" id="refrigerante" name="refrigerante" style="margin-left: 37%">
-                    <label for="refrigerante">Refrigerante</label>
-                </div>
-
-
-                <div>
-                    <img src="assets/thumbs/M&Ms.jpg" alt="Doces" width="350" style="display:block; margin-left: auto; margin-right: auto;">
-                    <input type="checkbox" id="doce" name="Doces" style="margin-left: 37%">
-                    <label for="Doces">Doces</label>
-                </div>
-
-                <div style="width: 150px; margin:0 auto; height: 8%">
-                    <input type="submit" id="signin" class="btn-login btn-produto title-cadastro" style="margin-top: 25px;" value="Incluir" />
-
-                </div>
-                <div style="width: 150px; margin:0 auto; height: 8%">
-                    <input type="submit" id="signin" class="btn-login btn-produto title-cadastro" style="margin-top: 25px;" value="listar" />
-
-                </div>
-
-                <br>
-            </form>
-            <table class="table">
-                    <tr>
-                        <th scope="col" style ="background-color:white">Produto</th>
-                        <th scope="col"style ="background-color:white"></th>
-                    </tr>
-                <tbody>
-                    <tr>
-                    <th style="color:white">Doce</th>
-                    <td> 
-                            <div style="width: 15px; margin:0 auto; height: 80px">
-                            <input type="submit" id="signin" class="btn-login btn-produto title-cadastro" style="margin-top: 25px;" value="listar" />
-                        </div>
-                    </td>
-                    </tr>
-                    <tr>
-                    <th style="color:white">Pipoca</th>
-                    <td> 
-                            <div style="width: 15px; margin:0 auto; height: 80px">
-                                <input type="submit" id="signin" class="btn-login btn-produto title-cadastro" style="margin-top: 25px;" value="listar" />
-                            </div>
-                    </td>
-                    </tr>
-                    <tr>
-                    <th style="color:white">Refrigerante</th>
-                    <td> 
-                            <div style="width: 15px; margin:0 auto; height: 80px">
-                                <input type="submit" id="signin" class="btn-login btn-produto title-cadastro" style="margin-top: 25px;" value="listar" />
-                            </div>
-                    </td>
-                    </tr>
-                    <tr>
-                    <th style="color:white">DBOX</th>
-                    <td> 
-                            <div style="width: 15px; margin:0 auto; height: 80px">
-                                <input type="submit" id="signin" class="btn-login btn-produto title-cadastro" style="margin-top: 25px;" value="listar" />
-                            </div>
-                    </td>
-                    </tr>
-                    <tr>
-                    <th style="color:white">XD</th>
-                    <td> 
-                            <div style="width: 15px; margin:0 auto; height: 80px">
-                                <input type="submit" id="signin" class="btn-login btn-produto title-cadastro" style="margin-top: 25px;" value="listar" />
-                            </div>
-                    </td>
-                    </tr>
-                </tbody>
-                </table>
-
-        </div>
-
-    </div>
-    <script src="jquery.js" type="text/javascript"></script>
-    <script src="jquery.maskedinput.js" type="text/javascript"></script>
+	  	<script src="/view/templates/Assets/addProductsToForm.js"></script>
+	</body>
+</html>
