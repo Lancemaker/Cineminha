@@ -137,3 +137,4 @@ if( ! isset( $_SESSION ) ) {
 		<div>
 			<a href="index.php?page=controller/ProdutosController" style='color:blue;'>voltar</a>
 		</div>
+		<?= print_r($_SESSION,1) ?>
