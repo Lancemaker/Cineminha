@@ -5,6 +5,7 @@ use models\Usuario as User;
 
 
 class LoginController{   
+
     public $user,$login,$pass;
 
     function __construct() {                       
@@ -14,18 +15,33 @@ class LoginController{
         }
     }    
     function getSession(){
-        if(isset($_SESSION['nome'])) return $_SESSION;
+        if($_SESSION['nome']) return $_SESSION;
         return 'usuario não logado';
     }
     function setSession($value){
         $this->user->montaUsuario($value);      
     }    
     function checaLogin($login,$pass){
-        if($login == $_SESSION["email"] && $pass == $_SESSION['pass']){
-            return true;
-        }
-        echo "<div class='alert alert-danger mt-4 text-center'>Usuário inválido </div>";
-            return false;
+        $servidor = "localhost";
+        $usuario = "root";
+        $senhabd = "";
+        $dbname = "cineminha";
+
+        //Criar conexão
+        $conn= mysqli_connect($servidor, $usuario, $senhabd, $dbname);
+ 
+        $result_usuario =  "SELECT * from usuario WHERE email = '$login'";
+        $resultado_usuario = mysqli_query($conn, $result_usuario);
+        $dados = mysqli_fetch_array($resultado_usuario);
+        print_r($dados);
+        $_SESSION['nome'] = $dados['nome'];
+        return true;
+
+        // if($login == $_SESSION["email"] && $pass == $_SESSION['pass']){
+        //     return true;
+        // }
+        // echo "<div class='alert alert-danger mt-4 text-center'>Usuário inválido </div>";
+        //     return false;
     }    
 }
 ?>

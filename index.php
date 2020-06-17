@@ -7,16 +7,19 @@
   */
 
   session_start(); 
-
-  if($_POST['metodo']=='cadastro'){    
-    $login = new Login();    
+  echo "<pre>".print_r($_POST,1)."</pre>";
+  if($_POST['metodo']){
+    if($_POST['metodo']=='cadastro'){    
+      $login = new Login();    
+    }
+    if($_POST['metodo']=='login'){;
+      $_SESSION['logado'] = Login::checaLogin($_POST['login'],$_POST['pass']);         
+    }
+    if($_POST['metodo']=='logout'){;
+      $_SESSION['logado']=0;         
+    }
   }
-  if($_POST['metodo']=='login'){;
-    $_SESSION['logado'] = Login::checaLogin($_POST['login'],$_POST['pass']);         
-  }
-  if($_POST['metodo']=='logout'){;
-    $_SESSION['logado']=0;         
-  }
+ 
   
 
   if(isset($_GET['page'])){
