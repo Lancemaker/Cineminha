@@ -4,24 +4,20 @@
 		<title>Adicinar produto ao carrinho</title>
 	</head>
 	<body>
+		<dl>
+  			<dt>Produtos</dt>
+  			<dd>Adicinar produto ao carrinho</dd>
+		</dl>
 		<?php include_once 'Products.php' ?>
 		<?php
 			if( ! empty( $products ) && is_array( $products ) && $products ) : ?>
-				<table>
-					<thead>
+				<table class="table">
+					<thead class="thead-dark">
 						<tr>
-							<td>
-								Nome do produto
-							</td>
-							<td>
-								Descrição
-							</td>
-							<td>
-								Preço
-							</td>
-							<td>
-								Quantidade
-							</td>
+							<th scope="col">Nome do Produto</th>
+      						<th scope="col">Descrição</th>
+      						<th scope="col">Preço</th>
+      						<th scope="col">Quantidade</th>
 						</tr>
 					</thead>
 					<tbody>

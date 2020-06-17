@@ -4,25 +4,21 @@ if( ! isset( $_SESSION ) ) {
 	die( 'Este arquivo não pode ser acessado diretamente' );
 }
 
-?>
+?>		
+		<dl>
+  			<dt>Produtos</dt>
+  			<dd>Adicinar produto ao carrinho</dd>
+		</dl>
 		<?php include_once 'Products.php' ?>
 		<?php
 			if( ! empty( $products ) && is_array( $products ) && $products ) : ?>
-				<table>
-					<thead>
+				<table class="table">
+					<thead class="thead-dark">
 						<tr>
-							<td>
-								Nome do produto
-							</td>
-							<td>
-								Descrição
-							</td>
-							<td>
-								Preço
-							</td>
-							<td>
-								Quantidade
-							</td>
+							<th scope="col">Nome do Produto</th>
+      						<th scope="col">Descrição</th>
+      						<th scope="col">Preço</th>
+      						<th scope="col">Quantidade</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -66,24 +62,13 @@ if( ! isset( $_SESSION ) ) {
 
 	  	<script src="/view/templates/Assets/addProductsToForm.js"></script>
 
-		<table>
-			<thead>
+		<table class="table">
+			<thead class="thead-dark">
 				<tr>
-					<td>
-						Produto escolhido
-					</td>
-					<td>
-						Descrição
-					</td>
-					<td>
-						Preço
-					</td>
-					<td>
-						Quantidade
-					</td>
-					<td>
-						Total
-					</td>
+					<th scope="col">Nome do Produto</th>
+      				<th scope="col">Descrição</th>
+      				<th scope="col">Preço</th>
+      				<th scope="col">Quantidade</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -107,9 +92,9 @@ if( ! isset( $_SESSION ) ) {
 				</tr>
 		<?php endforeach ?>
 				<tr>
-					<td>
+					<th>
 						Total
-					</td>
+					</th>
 					<td>
 						-
 					</td>
