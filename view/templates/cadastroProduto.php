@@ -5,8 +5,7 @@
 	</head>
 	<body>
 		<dl>
-  			<dt>Produtos</dt>
-  			<dd>Adicinar produto ao carrinho</dd>
+  			<dt>Tela de administração</dt>
 		</dl>
 		<?php include_once 'Products.php' ?>
 		<?php
@@ -50,7 +49,7 @@
 
 		<form method="POST" action="index.php?page=controller/AddProducts" id="formAddProducts">
 			<input type="hidden" name="Products" />
-			<button type="submit">Adicionar ao carrinho</button>
+			<button type="submit">Adicionar</button>
 		</form>
 		<a href=""></a>
 		<!-- Scripts do projeto -->

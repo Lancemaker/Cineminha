@@ -4,6 +4,7 @@ if( ! session_id() ) {
 	session_start();
 }
 
+//print_r($_POST);
 function calculateProductsValue( $product ) {
 	$price = (float) $product['price'];
 	$quantity = (int) $product['quantity'];
@@ -57,7 +58,32 @@ if( ! empty( $_POST ) ) {
 			'final_price' => 'R$ ' . number_format( $final_price, 2, ',', '.' )
 		];
 	}, $products );
-}
+
+		$servidor = "localhost";
+        $usuario = "root";
+        $senhabd = "";
+        $dbname = "cineminha";
+
+        //Criar conexão
+		$conn= mysqli_connect($servidor, $usuario, $senhabd, $dbname);
+		print_r($conn);
+		$products = json_decode( $_POST['Products'], true );
+		
+		for ($i=0; $i < count($products); $i++) { 
+			$result_produto = "INSERT INTO produtos (nome,descricao,quantidade,preco) values ("."'".$products[$i]["name"]."'".","."'".$products[$i]["description"]."'".","."'".$products[$i]["quantity"]."'".","."'".$products[$i]["price"]."'".")";
+			$resultado_produto = mysqli_query($conn, $result_produto);
+		}
+		
+		if ($result_produto) {
+			$numeroregistros = mysqli_affected_rows($conn);
+			echo "Comando executado com sucesso";
+			echo "<script>window.location='index.php?page=templates/cadastroProduto_old'</script>";
+			echo "Foram afetados $numeroregistros";
+		} else {
+			echo "Falha ao executar comando";
+		}
+		mysqli_close($conn);
+	}
 
 if( ! empty( $_SESSION['Products'] ) ) {
 	$_SESSION['ProductsTotal'] = calculateTotal( $_SESSION['Products'], true );
@@ -65,6 +91,8 @@ if( ! empty( $_SESSION['Products'] ) ) {
 	include_once( 'view/templates/Cart.php' );
 	die;
 }
+
+
 
 die( 'Arquivo não pode ser acessado diretamente' );
 

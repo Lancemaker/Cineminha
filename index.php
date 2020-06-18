@@ -7,7 +7,7 @@
   */
 
   session_start(); 
-  echo "<pre>".print_r($_POST,1)."</pre>";
+  //echo "<pre>".print_r($_POST,1)."</pre>";
   if($_POST['metodo']){
     if($_POST['metodo']=='cadastro'){    
       $login = new Login();    
