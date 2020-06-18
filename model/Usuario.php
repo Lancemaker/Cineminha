@@ -57,7 +57,6 @@ class Usuario {
         if ($resultado_usuario) {
             $numeroregistros = mysqli_affected_rows($this->conn);
             echo "Comando executado com sucesso";
-            echo "Foram afetados $numeroregistros";
         } else {
             echo "Falha ao executar comando";
         }

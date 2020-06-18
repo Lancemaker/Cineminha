@@ -33,7 +33,6 @@ class LoginController{
         $result_usuario =  "SELECT * from usuario WHERE email = '$login'";
         $resultado_usuario = mysqli_query($conn, $result_usuario);
         $dados = mysqli_fetch_array($resultado_usuario);
-        print_r($dados);
         $_SESSION['nome'] = $dados['nome'];
         return true;
 

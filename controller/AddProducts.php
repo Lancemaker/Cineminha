@@ -66,7 +66,6 @@ if( ! empty( $_POST ) ) {
 
         //Criar conexão
 		$conn= mysqli_connect($servidor, $usuario, $senhabd, $dbname);
-		print_r($conn);
 		$products = json_decode( $_POST['Products'], true );
 		
 		for ($i=0; $i < count($products); $i++) { 
@@ -76,9 +75,7 @@ if( ! empty( $_POST ) ) {
 		
 		if ($result_produto) {
 			$numeroregistros = mysqli_affected_rows($conn);
-			echo "Comando executado com sucesso";
 			echo "<script>window.location='index.php?page=templates/cadastroProduto_old'</script>";
-			echo "Foram afetados $numeroregistros";
 		} else {
 			echo "Falha ao executar comando";
 		}
