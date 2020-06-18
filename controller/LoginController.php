@@ -23,8 +23,8 @@ class LoginController{
     }    
     function checaLogin($login,$pass){
         $servidor = "localhost";
-        $usuario = "root";
-        $senhabd = "";
+        $usuario = "gil";
+        $senhabd = "123mudar";
         $dbname = "cineminha";
 
         //Criar conexão

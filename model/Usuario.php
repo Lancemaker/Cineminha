@@ -2,10 +2,10 @@
 namespace models;
 
 class Usuario {
-    public $servidor = "localhost";
-    public $usuario = "root";
-    public $senhabd = "";
-    public $dbname = "cineminha";
+   public $servidor = "localhost";
+   public $usuario = "gil";
+   public $senhabd = "123mudar";
+   public $dbname = "cineminha";
 
     //Criar conexão
     public $conn; 
